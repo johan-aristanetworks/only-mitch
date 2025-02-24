@@ -1,0 +1,14 @@
+Port      Name                 Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et2       Arista-PE32-Q2C-32 E  0:01      0.0   0.0%        0      0.1   0.0%
+Et3       H3C_120               0:01      0.5   0.0%        0      0.5   0.0%
+Et4       Nokia                 0:01      0.1   0.0%        0      0.1   0.0%
+Et5       Nokia-SXR-214 1/4     0:01      0.3   0.0%        0      0.1   0.0%
+Et9       Ciena-5134-72 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et11      Juniper-156 port 590  0:01      0.4   0.0%        0      0.2   0.0%
+Et15      Ribbon-221            0:01      0.3   0.0%        0      0.2   0.0%
+Et17      Huawei_124_NetEngine  0:01      0.2   0.0%        0      0.4   0.0%
+Et19      Huawei_128_NetEngine  0:01      0.2   0.0%        0      0.4   0.0%
+Et31      Ciena-8140-66 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et40      Juniper-179-ACX7024   0:01      0.1   0.0%        0      0.1   0.0%
+
+Port      Out Kpps

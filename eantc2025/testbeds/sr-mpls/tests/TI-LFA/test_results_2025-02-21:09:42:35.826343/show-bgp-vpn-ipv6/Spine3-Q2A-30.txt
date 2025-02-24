@@ -1,0 +1,23 @@
+BGP routing table information for VRF default
+Router identifier 10.0.0.30, local AS number 64512
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+ * >      RD: 10.0.0.32:5001 IPv6 prefix 2600:50:10:32::/64
+                                 ::ffff:10.0.0.32      -       100     0       i
+ * >      RD: 84:5001 IPv6 prefix 2600:50:10:84::/64
+                                 ::ffff:10.0.0.84      0       100     0       ?
+ * >      RD: 131:5001 IPv6 prefix 2600:50:10:131::/64
+                                 ::ffff:10.0.0.131     -       100     0       i
+ * >      RD: 156:5001 IPv6 prefix 2600:50:10:156::/64
+                                 ::ffff:10.0.0.156     -       100     0       i
+ * >      RD: 179:5001 IPv6 prefix 2600:50:10:179::/64
+                                 ::ffff:10.0.0.179     -       100     0       i
+ * >      RD: 214:5001 IPv6 prefix 2600:50:10:214::/64
+                                 ::ffff:10.0.0.214     -       100     0       i
+ * >      RD: 217:5001 IPv6 prefix 2600:50:10:217::/64
+                                 ::ffff:10.0.0.217     -       100     0       i

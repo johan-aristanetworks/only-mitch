@@ -1,0 +1,5 @@
+Port      Name                 Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et9       Ciena-5134-72 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et31      Ciena-8140-66 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+
+Port      Out Kpps

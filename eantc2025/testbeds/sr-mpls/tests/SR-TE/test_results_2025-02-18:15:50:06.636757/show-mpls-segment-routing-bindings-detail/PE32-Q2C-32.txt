@@ -1,0 +1,135 @@
+10.0.0.30/32
+   Local binding:  Label: 20030
+      Uptime: 2:46:17
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: imp-null
+      Uptime: 2:46:17
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2030
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20030
+      Uptime: 2:46:09
+10.0.0.32/32
+   Local binding:  Label: imp-null
+      Uptime: 2:46:19
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20032
+      Uptime: 2:46:17
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2032
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20032
+      Uptime: 2:46:09
+10.0.0.53/32
+   Local binding:  Label: 20053
+      Uptime: 0:07:29
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20053
+      Uptime: 0:07:29
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2053
+      Uptime: 0:07:29
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20053
+      Uptime: 0:07:29
+10.0.0.66/32
+   Local binding:  Label: 20066
+      Uptime: 0:40:49
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20066
+      Uptime: 0:40:49
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2066
+      Uptime: 0:40:49
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20066
+      Uptime: 0:40:49
+10.0.0.72/32
+   Local binding:  Label: 20072
+      Uptime: 0:43:32
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20072
+      Uptime: 0:43:32
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2072
+      Uptime: 0:43:32
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20072
+      Uptime: 0:43:32
+10.0.0.84/32
+   Local binding:  Label: 20084
+      Uptime: 2:46:16
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20084
+      Uptime: 2:46:16
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2084
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20084
+      Uptime: 2:46:09
+10.0.0.120/32
+   Local binding:  Label: 20120
+      Uptime: 1:35:40
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20120
+      Uptime: 1:35:40
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2120
+      Uptime: 1:35:40
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20120
+      Uptime: 1:35:40
+10.0.0.124/32
+   Local binding:  Label: 20124
+      Uptime: 2:46:16
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20124
+      Uptime: 2:46:16
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2124
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20124
+      Uptime: 2:46:09
+10.0.0.128/32
+   Local binding:  Label: 20128
+      Uptime: 2:46:16
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20128
+      Uptime: 2:46:16
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2128
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20128
+      Uptime: 2:46:09
+10.0.0.156/32
+   Local binding:  Label: 20156
+      Uptime: 0:56:10
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20156
+      Uptime: 0:56:10
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2156
+      Uptime: 0:56:10
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20156
+      Uptime: 0:56:10
+10.0.0.175/32
+   Local binding:  Label: 20175
+      Uptime: 2:46:16
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20175
+      Uptime: 2:46:16
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2175
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: imp-null
+      Uptime: 2:46:09
+10.0.0.179/32
+   Local binding:  Label: 20179
+      Uptime: 2:38:48
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20179
+      Uptime: 2:38:48
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2179
+      Uptime: 2:38:48
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20179
+      Uptime: 2:38:48
+10.0.0.214/32
+   Local binding:  Label: 20214
+      Uptime: 2:46:16
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20214
+      Uptime: 2:46:16
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2214
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20214
+      Uptime: 2:46:09
+10.0.0.217/32
+   Local binding:  Label: 20217
+      Uptime: 2:46:16
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 20217
+      Uptime: 2:46:16
+   Remote binding: Peer ID: 0000.0000.0124, Label: 2217
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 20217
+      Uptime: 2:46:09
+10.0.0.221/32
+   Local binding:  Label: 21221
+      Uptime: 2:46:16
+   Remote binding: Peer ID: Arista-Spine3-Q2A-30, Label: 21221
+      Uptime: 2:46:16
+   Remote binding: Peer ID: 0000.0000.0124, Label: 3221
+      Uptime: 2:46:09
+   Remote binding: Peer ID: Juniper-175-ACX7100-48L, Label: 21221
+      Uptime: 2:46:09

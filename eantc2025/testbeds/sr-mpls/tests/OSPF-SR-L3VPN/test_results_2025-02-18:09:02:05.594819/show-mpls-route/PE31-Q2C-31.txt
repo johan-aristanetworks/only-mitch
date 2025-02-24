@@ -1,0 +1,69 @@
+MPLS forwarding table (Label [metric] Vias) - 15 routes 
+MPLS next-hop resolution allow default route: False
+Metric Codes:
+          A - Active metric
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+
+ 20032   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20066   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20072   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20084   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20120   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20124   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20128   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20131   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20175   A[1]
+                via M, pop
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20179   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 20217   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 21221   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.31.175.175 Ethernet5
+ 362144   [0]
+                via I, ipv6, vrf RED
+ 362145   [0]
+                via I, ipv4, vrf RED
+ 411296  A[1]
+                via M, 20.31.175.175, pop
+                    EgressACL: apply
+                    directly connected, Ethernet5
+                    3c:08:cd:8d:ba:f4, vlan 1010

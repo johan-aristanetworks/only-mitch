@@ -1,0 +1,14 @@
+Neighbor 10.0.0.175, instance 1, VRF default, interface address 20.31.175.175
+  In area 0.0.0.0 interface Ethernet5
+  Neighbor priority is 128, State is FULL, 6 state changes
+  Adjacency was established 00:37:23 ago
+  Current state was established 00:37:23 ago
+  DR IP Address 0.0.0.0 BDR IP Address 0.0.0.0
+  Options is E
+  Dead timer is due in 00:00:34
+  Inactivity timer deferred 0 times
+  LSAs retransmitted 0 times to this neighbor
+  Graceful-restart-helper mode is Inactive
+  Graceful-restart attempts: 0
+  Segment Routing enabled
+    SRGB Base: 20000 Range: 2000

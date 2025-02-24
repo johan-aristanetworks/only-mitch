@@ -1,0 +1,75 @@
+BGP routing table information for VRF default
+Router identifier 10.0.0.30, local AS number 64512
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+ * >      RD: 10.0.0.32:5001 IPv4 prefix 50.10.32.0/24
+                                 10.0.0.32             -       100     0       i
+ * >      RD: 53:5001 IPv4 prefix 50.10.53.0/24
+                                 10.0.0.53             -       100     0       ?
+ * >      RD: 66:5001 IPv4 prefix 50.10.66.0/24
+                                 10.0.0.66             -       100     0       ?
+ * >      RD: 72:5001 IPv4 prefix 50.10.72.0/24
+                                 10.0.0.72             -       100     0       ?
+ * >      RD: 84:5001 IPv4 prefix 50.10.84.0/24
+                                 10.0.0.84             0       100     0       ?
+ * >      RD: 120:5001 IPv4 prefix 50.10.120.0/24
+                                 10.0.0.120            0       100     0       ?
+ * >      RD: 131:5001 IPv4 prefix 50.10.131.0/24
+                                 10.0.0.131            -       100     0       i
+ * >      RD: 156:5001 IPv4 prefix 50.10.156.0/24
+                                 10.0.0.156            -       100     0       i
+ * >      RD: 179:5001 IPv4 prefix 50.10.179.0/24
+                                 10.0.0.179            -       100     0       i
+ * >      RD: 214:5001 IPv4 prefix 50.10.214.0/24
+                                 10.0.0.214            -       100     0       i
+ * >      RD: 217:5001 IPv4 prefix 50.10.217.0/24
+                                 10.0.0.217            -       100     0       i
+ * >      RD: 221:5001 IPv4 prefix 50.10.221.0/24
+                                 10.0.0.221            -       100     0       i
+ * >      RD: 10.0.0.30:5128 IPv4 prefix 50.128.32.0/24
+                                 10.0.0.32             -       100     0       i
+ * >      RD: 53:5128 IPv4 prefix 50.128.53.0/24
+                                 10.0.0.53             -       100     0       ?
+ * >      RD: 120:5128 IPv4 prefix 50.128.120.0/24
+                                 10.0.0.120            0       100     0       ?
+ * >      RD: 5128:5128 IPv4 prefix 50.128.156.0/24
+                                 10.0.0.156            -       100     0       i
+ * >      RD: 5128:5128 IPv4 prefix 50.128.179.0/24
+                                 10.0.0.179            -       100     0       i
+ * >      RD: 217:5128 IPv4 prefix 50.128.217.0/24
+                                 10.0.0.217            -       100     0       i
+ * >      RD: 10.0.0.30:5128 IPv4 prefix 50.129.32.0/24
+                                 10.0.0.32             -       100     0       i
+ * >      RD: 53:5128 IPv4 prefix 50.129.53.0/24
+                                 10.0.0.53             -       100     0       ?
+ * >      RD: 66:5001 IPv4 prefix 50.129.66.0/24
+                                 10.0.0.66             -       100     0       ?
+ * >      RD: 72:5001 IPv4 prefix 50.129.72.0/24
+                                 10.0.0.72             -       100     0       ?
+ * >      RD: 120:5129 IPv4 prefix 50.129.120.0/24
+                                 10.0.0.120            0       100     0       ?
+ * >      RD: 5128:5128 IPv4 prefix 50.129.156.0/24
+                                 10.0.0.156            -       100     0       i
+ * >      RD: 5128:5128 IPv4 prefix 50.129.179.0/24
+                                 10.0.0.179            -       100     0       i
+ * >      RD: 217:5128 IPv4 prefix 50.129.217.0/24
+                                 10.0.0.217            -       100     0       i
+ * >      RD: 221:5128 IPv4 prefix 50.129.221.0/24
+                                 10.0.0.221            -       100     0       i
+ * >      RD: 10.0.0.30:5128 IPv4 prefix 50.130.32.0/24
+                                 10.0.0.32             -       100     0       i
+ * >      RD: 53:5128 IPv4 prefix 50.130.53.0/24
+                                 10.0.0.53             -       100     0       ?
+ * >      RD: 120:5130 IPv4 prefix 50.130.120.0/24
+                                 10.0.0.120            0       100     0       ?
+ * >      RD: 5128:5128 IPv4 prefix 50.130.156.0/24
+                                 10.0.0.156            -       100     0       i
+ * >      RD: 5128:5128 IPv4 prefix 50.130.179.0/24
+                                 10.0.0.179            -       100     0       i
+ * >      RD: 217:5128 IPv4 prefix 50.130.217.0/24
+                                 10.0.0.217            -       100     0       i

@@ -1,0 +1,28 @@
+show version
+show mac address-table 
+show ip interface brief | exclude una
+show interfaces counters rates | nz
+show ip ospf neighbor detail
+show ip ospf database detail
+show ip route
+show ip route vrf RED
+show ipv6 route
+show ipv6 route vrf RED
+show mpls route
+show mpls lfib route
+show ip ospf segment-routing
+show ip ospf segment-routing global-blocks
+show ip ospf segment-routing bindings
+show ip ospf segment-routing adjacency-segments
+show bgp evpn
+show bgp vpn-ipv4
+show bgp vpn-ipv6
+show bgp ipv4 labeled-unicast
+show bgp neighbors
+show tunnel rib system-tunnel-rib brief
+show tunnel rib colored brief
+show rib route ip
+show rib route ipv6
+show platform sand l3 summary
+show platform jericho2 ip route
+show platform jericho2 fec all

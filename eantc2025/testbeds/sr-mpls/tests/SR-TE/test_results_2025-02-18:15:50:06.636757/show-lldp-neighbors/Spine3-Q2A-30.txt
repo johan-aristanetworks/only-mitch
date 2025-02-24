@@ -1,0 +1,24 @@
+Last table change time   : 0:07:24 ago
+Number of table inserts  : 96
+Number of table deletes  : 81
+Number of table drops    : 0
+Number of table age-outs : 1
+
+Port      Neighbor Device ID                    Neighbor Port ID            TTL
+------- ------------------------------------- ----------------------------- ---
+Et2       Arista-PE32-Q2C-32.ns.eantc.de        Ethernet1                   120
+Et3       H3C_M1A_120                           Ten-GigabitEthernet0/0/17   121
+Et4       Nokia-SR1-217                         1610899524                  121
+Et5       Nokia-SXR-214                         ethernet-1/4                120
+Et9       Ciena-5134-72                         2                           120
+Et11      Juniper-156-PTX10002-36QDD            590                         120
+Et12      Ericsson_84_R6678                     5870.7f9f.c403              91 
+Et13      Arrcus-53                             swp0                        120
+Et15      30c5.0784.3e68                        et-bs/15                    121
+Et17      Huawei_124_NetEngine_A816             GigabitEthernet0/2/4        120
+Et19      Huawei_128_NetEngine_8000_M14         GigabitEthernet0/5/0        120
+Et31      Ciena-8140-66                         2                           120
+Et36      Arista-Harness3-JP-39.ns.eantc.de     Ethernet6                   120
+Et40      Juniper-179-ACX7024                   523                         120
+Ma1       extreme-x460-2                        5                           120
+

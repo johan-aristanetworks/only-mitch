@@ -1,0 +1,84 @@
+Tunnel Type: Mpop(mpls pop), Mpush(mpls push), Mswap(mpls swap),
+             MoG(mpls-over-gre), T(IPv4 tunnels GRE/GUE/VXLAN),
+             N(Ipsec tunnel NAT-T [IP,SPORT,DPORT])
+CW  - Control word
+FL  - Flow label
+EL  - Entropy label
+ELI - Entropy label indicator
+D   - ECMP is divergent across switching chips
+ -----------------------------------------------------------------------------------------------
+|                                              FEC Entry                                        |
+ -----------------------------------------------------------------------------------------------
+|     |      |     |                    |     |        |                   |
+| ECMP|  FEC |     |                    |     |        |                   |
+|Index| Index| Cmd |     Destination    | VID | Outlif |   MAC / CPU Code  |    Tunnel Value
+ -----------------------------------------------------------------------------------------------
+|16384|288373|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|16384|288374|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|16385|288380|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|16385|288381|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |157288|ROUTE| FEC 16385          |   - |2097131 |                 - |Mpush 20214 500000
+|  -  |157290|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157291|ROUTE| FEC 16385          |   - |2097128 |                 - |Mpush 20128 48060
+|  -  |157292|ROUTE| FEC 16385          |   - |2097136 |                 - |Mpush 20084 720896
+|  -  |157293|ROUTE| FEC 16385          |   - |2097127 |                 - |Mpush 20179 16
+|  -  |157294|ROUTE| FEC 16385          |   - |2097133 |                 - |Mpush 20072 62003
+|  -  |157295|ROUTE| FEC 16385          |   - |2097134 |                 - |Mpush 21221 524289
+|  -  |157296|ROUTE| FEC 16385          |   - |2097134 |                 - |Mpush 21221 524289
+|  -  |157297|ROUTE| FEC 16385          |   - |2097130 |                 - |Mpush 20217 524287
+|  -  |157298|ROUTE| FEC 16385          |   - |2097129 |                 - |Mpush 20128 48061
+|  -  |157299|ROUTE| FEC 16385          |   - |2097131 |                 - |Mpush 20214 500000
+|  -  |157300|ROUTE| FEC 16385          |   - |2097132 |                 - |Mpush 20072 62002
+|  -  |157301|ROUTE| FEC 16385          |   - |2097130 |                 - |Mpush 20217 524287
+|  -  |157302|ROUTE| FEC 16385          |   - |2097127 |                 - |Mpush 20179 16
+|  -  |157303|ROUTE| FEC 16385          |   - |2097135 |                 - |Mpush 20084 720897
+|  -  |157304|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157305|ROUTE| FEC 288377         |   - |2097138 |                 - |Mpush 20120 1277
+|  -  |157306|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157308|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157310|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157312|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157314|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157316|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157318|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157320|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157322|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157324|ROUTE| FEC 288378         |   - |  -     |                   |   -   
+|  -  |157326|ROUTE| FEC 288377         |   - |2097137 |                 - |Mpush 20120 1276
+|  -  |157327|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157328|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157329|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157330|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157331|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157332|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157333|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157334|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157335|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157336|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |288360|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288361|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288362|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288363|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288364|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288366|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288367|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288368|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288369|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288370|ROUTE| Et40               |1008 |107519  | 00:28:01:00:00:01 |   -   
+|  -  |288371|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288372|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288375|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288376|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288377|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288378|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288379|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288383|ROUTE| Et40               |1009 |107520  | 00:29:01:00:00:01 |   -   
+|  -  |524290|TRAP | CoppSystemIpBcast  |0    |  -     | BcastReceive      |   -   
+|  -  |524291|TRAP | CoppSystemIpUcast  |0    |  -     | Receive           |   -   
+|  -  |524293|TRAP | CoppSystemL3LpmOver|0    |  -     | SlowReceive       |   -   
+|  -  |524295|TRAP | CoppSystemL3DstMiss|0    |  -     | ArpTrap           |   -   
+|  -  |525301|TRAP | CoppSystemL3DstMiss|1006 |1006    | ArpTrap           |   -   
+|  -  |525303|TRAP | CoppSystemL3DstMiss|1008 |1008    | ArpTrap           |   -   
+|  -  |525304|TRAP | CoppSystemL3DstMiss|1009 |1009    | ArpTrap           |   -   
+|  -  |525305|TRAP | CoppSystemL3DstMiss|1010 |1010    | ArpTrap           |   -   
+

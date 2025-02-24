@@ -1,0 +1,218 @@
+MPLS forwarding table (Label [metric] Vias) - 31 routes 
+MPLS next-hop resolution allow default route: False
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+Source Codes:
+          G - gRIBI, S - Static MPLS route,
+          B2 - BGP L2 EVPN, B3 - BGP L3 VPN,
+          R - RSVP, P - Pseudowire,
+          L - LDP, M - MLDP,
+          I>BL - IS-IS SR to BGP LU, IP - IS-IS SR prefix segment,
+          IA - IS-IS SR adjacency segment, I>L - IS-IS SR to LDP,
+          L>I - LDP to IS-IS SR, OP - Ospf SR prefix segment,
+          OA - Ospf SR adjacency segment, OL - Ospf SR segment to LDP,
+          L0 - LDP to Ospf SR segment, BL - BGP LU,
+          BL>L - BGP LU to LDP, L>BL - LDP to BGP LU,
+          ST - SR TE policy, SMP - SR P2MP,
+          BL>I - BGP LU to IS-IS SR, BLS - BGP Link State,
+          DE - Debug LFIB
+
+ IP    20031    [1], 10.0.0.31/32
+                via TI-LFA tunnel index 1, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.31.31, Ethernet1, label imp-null(3)
+                    backup via 20.30.72.72, Ethernet9, label 20175 20031
+ IP    20032    [1], 10.0.0.32/32
+                via TI-LFA tunnel index 12, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.32, Ethernet2, label imp-null(3)
+                    backup via 20.30.221.221, Ethernet15, label 720175 20032
+ IP    20053    [1], 10.0.0.53/32
+                via TI-LFA tunnel index 2, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.53.53, Ethernet13, label exp-null-v4(0)
+                    backup via 20.30.72.72, Ethernet9, label 20175 20053
+ IP    20072    [1], 10.0.0.72/32
+                via TI-LFA tunnel index 8, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.72.72, Ethernet9, label imp-null(3)
+                    backup via 20.30.53.53, Ethernet13, label 20175 20072
+ IP    20084    [1], 10.0.0.84/32
+                via TI-LFA tunnel index 0, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.84.84, Ethernet12, label imp-null(3)
+                    backup via 20.30.128.128, Ethernet19, label 20175
+ IP    20120    [1], 10.0.0.120/32
+                via TI-LFA tunnel index 5, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.120.120, Ethernet3, label imp-null(3)
+                    backup via 20.30.214.214, Ethernet5, label 20175 20120
+ IP    20124    [1], 10.0.0.124/32
+                via TI-LFA tunnel index 11, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.124.124, Ethernet17, label 2124
+                    backup via 20.30.53.53, Ethernet13, label 20175 20124
+ IP    20128    [1], 10.0.0.128/32
+                via TI-LFA tunnel index 7, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.128.128, Ethernet19, label imp-null(3)
+                    backup via 20.30.120.120, Ethernet3, label 20175 20128
+ IP    20131    [1], 10.0.0.131/32
+                via M, 20.30.31.31, swap 20131
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+                via M, 20.30.32.32, swap 20131
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet2
+                via M, 20.30.53.53, swap 20131
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet13
+                via M, 20.30.72.72, swap 20131
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet9
+                via M, 20.30.84.84, swap 20131
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet12
+                via M, 20.30.120.120, swap 20131
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet3
+                via M, 20.30.124.124, swap 2131
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet17
+                via M, 20.30.128.128, swap 20131
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet19
+ IP    20175    [1], 10.0.0.175/32
+                via M, 20.30.31.31, swap 20175
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+                via M, 20.30.32.32, swap 20175
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet2
+                via M, 20.30.53.53, swap 20175
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet13
+                via M, 20.30.72.72, swap 20175
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet9
+                via M, 20.30.84.84, swap 20175
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet12
+                via M, 20.30.120.120, swap 20175
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet3
+                via M, 20.30.124.124, swap 2175
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet17
+                via M, 20.30.128.128, swap 20175
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet19
+ IP    20179    [1], 10.0.0.179/32
+                via TI-LFA tunnel index 6, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.179.179, Ethernet40, label imp-null(3)
+                    backup via 20.30.124.124, Ethernet17, label 2175 20179
+ IP    20214    [1], 10.0.0.214/32
+                via TI-LFA tunnel index 3, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.214.214, Ethernet5, label imp-null(3)
+                    backup via 20.30.72.72, Ethernet9, label 20175
+ IP    20217    [1], 10.0.0.217/32
+                via TI-LFA tunnel index 4, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.217.217, Ethernet4, label imp-null(3)
+                    backup via 20.30.124.124, Ethernet17, label 2175
+ IP    20484    [1], 10.0.0.184/32
+                via M, 20.30.31.31, swap 20484
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+                via M, 20.30.32.32, swap 20484
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet2
+                via M, 20.30.53.53, swap 20484
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet13
+                via M, 20.30.72.72, swap 20484
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet9
+                via M, 20.30.84.84, swap 20484
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet12
+                via M, 20.30.120.120, swap 20484
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet3
+                via M, 20.30.128.128, swap 20484
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet19
+ IP    21221    [1], 10.0.0.221/32
+                via TI-LFA tunnel index 9, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.221.221, Ethernet15, label imp-null(3)
+                    backup via 20.30.53.53, Ethernet13, label 20175 21221
+ IA    362159   [1]
+                via M, 20.30.32.32, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet2
+ IA    362160   [1]
+                via M, 20.30.221.221, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet15
+ IA    362161   [1]
+                via M, 20.30.72.72, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet9
+ IA    362162   [1]
+                via M, 20.30.120.120, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet3
+ IA    362163   [1]
+                via M, fe80::be31:e2ff:fee1:ec2c, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet3
+ IA    362164   [1]
+                via M, 20.30.31.31, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+ IA    362165   [1]
+                via M, 20.30.53.53, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet13
+ IA    362166   [1]
+                via M, 20.30.214.214, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet5
+ IA    362167   [1]
+                via M, 20.30.84.84, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet12
+ IA    362168   [1]
+                via M, 20.30.179.179, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet40
+ IA    362169   [1]
+                via M, fe80::d6af:f7ff:fe2f:1396, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet2
+ IA    362170   [1]
+                via M, fe80::6abf:6cff:fe35:1e31, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+ IA    362171   [1]
+                via M, 20.30.217.217, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet4
+ IA    362174   [1]
+                via M, 20.30.128.128, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet19
+ IA    362175   [1]
+                via M, 20.30.124.124, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet17
+ B3    378528   [0]
+                via I, ipv4, vrf RED

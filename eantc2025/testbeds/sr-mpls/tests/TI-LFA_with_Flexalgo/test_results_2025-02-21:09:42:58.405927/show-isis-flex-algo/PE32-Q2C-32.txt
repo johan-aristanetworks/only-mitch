@@ -1,0 +1,9 @@
+
+IS-IS Instance: IGP VRF: default
+
+Algorithm   Advertised Level Metric    Selected            
+----------- ---------- ----- --------- --------------------
+MIN-LATENCY yes        L2    min-delay Arista-Spine3-Q2A-30
+MIN-TE      yes        L2    TE        Arista-Spine3-Q2A-30
+ADMIN       yes        L2    default   Arista-Spine3-Q2A-30
+

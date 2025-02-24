@@ -1,0 +1,1204 @@
+TI-LFA paths for IPv4 address family
+   Topology ID: Level-2
+   Destination: Arista-Spine3-Q2A-30
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x4
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x12
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x50
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x51
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x52
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x53
+         Path: Path not found
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x6f
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x71
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+
+   Destination: Arrcus-53
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x3
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x11
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x1c
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x1d
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x5e
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x5f
+         Path: Path not found
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 14
+         Last updated: 0:00:16 ago
+         ID: 0x6a
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 14
+         Last updated: 0:00:16 ago
+         ID: 0x6b
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+
+   Destination: Ciena-8140-66
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x6
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x14
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 10
+         Last updated: 0:00:16 ago
+         ID: 0x7f
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 9
+         Last updated: 0:00:16 ago
+         ID: 0x82
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+
+   Destination: Ciena-5134-72
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x8
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x16
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 10
+         Last updated: 0:00:16 ago
+         ID: 0x66
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 10
+         Last updated: 0:00:16 ago
+         ID: 0x67
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+
+   Destination: Ericsson_84_R6678
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xa
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x18
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+
+   Destination: H3C_M1A_120
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 9
+         Last updated: 0:00:16 ago
+         ID: 0x0
+         Path:
+            Juniper-156-PTX10002-36QDD [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 3
+         Last updated: 0:49:46 ago
+         ID: 0x1
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x5
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x13
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x5c
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x5d
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+
+   Destination: Juniper-131-JCNR
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xb
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x19
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+
+   Destination: Juniper-156-PTX10002-36QDD
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xe
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x1a
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x4e
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x4f
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x56
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x57
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x5a
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x5b
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+
+   Destination: Juniper-175-ACX7100-48L
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 12
+         Last updated: 0:00:16 ago
+         ID: 0x46
+         Path:
+            Ciena-5134-72 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 2:13:59 ago
+         ID: 0x47
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x4c
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x4d
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x62
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x63
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 9
+         Last updated: 0:00:16 ago
+         ID: 0x64
+         Path:
+            Juniper-179-ACX7024 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 2:13:59 ago
+         ID: 0x65
+         Path: Path not found
+
+   Destination: Juniper-179-ACX7024
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x9
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x17
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x1e
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x1f
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x54
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x55
+         Path: Path not found
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x83
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x84
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+
+   Destination: Nokia-SXR-214
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xf
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x1b
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+
+   Destination: Nokia-SR1-217
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x2
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x10
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x4a
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x4b
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 18
+         Last updated: 0:00:16 ago
+         ID: 0x58
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 18
+         Last updated: 0:00:16 ago
+         ID: 0x59
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x68
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x69
+         Path: Path not found
+
+   Destination: 221
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x7
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet5
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 6
+         Last updated: 0:00:16 ago
+         ID: 0xc
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       exclude SRLG of Ethernet5
+                       SRLG strict
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 6
+         Last updated: 0:00:16 ago
+         ID: 0xd
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x15
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x60
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       exclude SRLG of Ethernet1
+                       SRLG strict
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x61
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+
+TI-LFA paths for IPv6 address family
+   Topology ID: Level-2
+   Destination: Arista-Spine3-Q2A-30
+      Path constraint: exclude Ethernet1
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x0
+         Path:
+            Ericsson_84_R6678 [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x1
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xa
+         Path:
+            Juniper-156-PTX10002-36QDD [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xb
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x10
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x11
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x12
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x13
+         Path: Path not found
+
+   Destination: Arrcus-53
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x8
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x9
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xe
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xf
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet5
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 13
+         Last updated: 0:00:16 ago
+         ID: 0x1e
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 14
+         Last updated: 0:00:16 ago
+         ID: 0x1f
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+
+   Destination: H3C_M1A_120
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x4
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x5
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x6
+         Path:
+            Juniper-156-PTX10002-36QDD [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x7
+         Path: Path not found
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xc
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0xd
+         Path: Path not found
+
+   Destination: Juniper-156-PTX10002-36QDD
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x14
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x15
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x18
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x19
+         Path: Path not found
+      Path constraint: exclude Ethernet5
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x20
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x21
+         Path:
+            Arista-Spine3-Q2A-30 [PQ-node]
+
+   Destination: Juniper-175-ACX7100-48L
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x2
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm MIN-LATENCY (128)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x3
+         Path:
+            Juniper-175-ACX7100-48L [PQ-node]
+      Path constraint: exclude Ethernet1
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x16
+         Path: Path not found
+      Path constraint: exclude node 0000.0000.0030
+                       flex-algo algorithm ADMIN (130)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 0:00:16 ago
+         ID: 0x17
+         Path: Path not found
+      Path constraint: exclude Ethernet5
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 9
+         Last updated: 0:00:16 ago
+         ID: 0x1a
+         Path:
+            Nokia-SR1-217 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       algorithm SPF (0)
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 2:13:59 ago
+         ID: 0x1b
+         Path: Path not found
+      Path constraint: exclude Ethernet5
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 8
+         Last updated: 0:00:16 ago
+         ID: 0x26
+         Path:
+            Arrcus-53 [PQ-node]
+      Path constraint: exclude node 0000.0000.0175
+                       flex-algo algorithm MIN-TE (129)
+                         metric type TE
+         Request sequence number: 1
+         Response sequence number: 1
+         Number of times path updated: 1
+         Last updated: 2:13:59 ago
+         ID: 0x27
+         Path: Path not found
+

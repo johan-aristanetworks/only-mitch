@@ -1,0 +1,443 @@
+Flex algo paths for IPv4 address family
+Topology ID: Level-2
+Destination: 0000.0000.0124
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 0:25:02 ago
+Metric: 10000
+Next Hop      Interface 
+------------- ----------
+20.30.124.124 Ethernet17
+
+Destination: 0000.0000.0128
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 0:23:48 ago
+Metric: 10000
+Next Hop      Interface 
+------------- ----------
+20.30.128.128 Ethernet19
+
+Destination: 221
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 0:10:01 ago
+Metric: 10000
+Next Hop      Interface 
+------------- ----------
+20.30.221.221 Ethernet15
+
+Destination: Arista-PE32-Q2C-32
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 5
+Last updated: 0:01:37 ago
+Metric: 10000
+Next Hop    Interface
+----------- ---------
+20.30.32.32 Ethernet2
+
+Destination: Arista-PE32-Q2C-32
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 5
+Last updated: 0:01:37 ago
+Metric: 100
+Next Hop    Interface
+----------- ---------
+20.30.32.32 Ethernet2
+
+Destination: Arista-PE32-Q2C-32
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 4
+Last updated: 0:01:37 ago
+Metric: 1
+Next Hop    Interface
+----------- ---------
+20.30.32.32 Ethernet2
+
+Destination: Arista-Spine3-Q2A-30
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 0:41:28 ago
+Next Hop Interface
+-------- ---------
+
+Destination: Arista-Spine3-Q2A-30
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 0:41:28 ago
+Next Hop Interface
+-------- ---------
+
+Destination: Arista-Spine3-Q2A-30
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 0:41:28 ago
+Next Hop Interface
+-------- ---------
+
+Destination: Arrcus-53
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 10
+Last updated: 17:57:46 ago
+Metric: 10000
+Next Hop    Interface 
+----------- ----------
+20.30.53.53 Ethernet13
+
+Destination: Arrcus-53
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 9
+Last updated: 17:57:46 ago
+Metric: 100
+Next Hop    Interface 
+----------- ----------
+20.30.53.53 Ethernet13
+
+Destination: Arrcus-53
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 9
+Last updated: 1:23:00 ago
+Metric: 1
+Next Hop    Interface 
+----------- ----------
+20.30.53.53 Ethernet13
+
+Destination: Juniper-156-PTX10002-36QDD
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 6
+Last updated: 18:11:31 ago
+Metric: 10000
+Next Hop      Interface 
+------------- ----------
+20.30.156.156 Ethernet11
+
+Destination: Juniper-156-PTX10002-36QDD
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 5
+Last updated: 18:58:58 ago
+Metric: 100
+Next Hop      Interface 
+------------- ----------
+20.30.156.156 Ethernet11
+
+Destination: Juniper-156-PTX10002-36QDD
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 5
+Last updated: 1:23:00 ago
+Metric: 1
+Next Hop      Interface 
+------------- ----------
+20.30.156.156 Ethernet11
+
+Destination: Juniper-175-ACX7100-48L
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 19
+Last updated: 0:10:01 ago
+Metric: 10010
+Next Hop      Interface 
+------------- ----------
+20.30.221.221 Ethernet15
+
+Destination: Juniper-175-ACX7100-48L
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 119
+Last updated: 0:01:37 ago
+Metric: 110
+Next Hop      Interface 
+------------- ----------
+20.30.217.217 Ethernet4 
+20.30.179.179 Ethernet40
+20.30.156.156 Ethernet11
+20.30.53.53   Ethernet13
+20.30.32.32   Ethernet2 
+
+Destination: Juniper-175-ACX7100-48L
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 11
+Last updated: 0:47:29 ago
+Metric: 11
+Next Hop      Interface 
+------------- ----------
+20.30.131.131 Ethernet35
+
+Destination: Juniper-179-ACX7024
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 4
+Last updated: 18:11:31 ago
+Metric: 10000
+Next Hop      Interface 
+------------- ----------
+20.30.179.179 Ethernet40
+
+Destination: Juniper-179-ACX7024
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 3
+Last updated: 18:58:59 ago
+Metric: 100
+Next Hop      Interface 
+------------- ----------
+20.30.179.179 Ethernet40
+
+Destination: Juniper-179-ACX7024
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 5
+Last updated: 1:23:00 ago
+Metric: 1
+Next Hop      Interface 
+------------- ----------
+20.30.179.179 Ethernet40
+
+Destination: Nokia-SR1-217
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 4
+Last updated: 0:10:58 ago
+Metric: 10000
+Next Hop      Interface
+------------- ---------
+20.30.217.217 Ethernet4
+
+Destination: Nokia-SR1-217
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 4
+Last updated: 0:10:58 ago
+Metric: 100
+Next Hop      Interface
+------------- ---------
+20.30.217.217 Ethernet4
+
+Destination: Nokia-SR1-217
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 4
+Last updated: 0:10:58 ago
+Metric: 1
+Next Hop      Interface
+------------- ---------
+20.30.217.217 Ethernet4
+
+Flex algo paths for IPv6 address family
+Topology ID: Level-2
+Destination: Arrcus-53
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 10
+Last updated: 17:57:46 ago
+Metric: 10000
+Next Hop                 Interface 
+------------------------ ----------
+fe80::5e07:58ff:fea3:aaa Ethernet13
+
+Destination: Arrcus-53
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 7
+Last updated: 17:57:46 ago
+Metric: 100
+Next Hop                 Interface 
+------------------------ ----------
+fe80::5e07:58ff:fea3:aaa Ethernet13
+
+Destination: Arrcus-53
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 8
+Last updated: 17:57:46 ago
+Metric: 10
+Next Hop                 Interface 
+------------------------ ----------
+fe80::5e07:58ff:fea3:aaa Ethernet13
+
+Destination: Juniper-156-PTX10002-36QDD
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 2
+Last updated: 18:11:31 ago
+Metric: 10000
+Next Hop                  Interface 
+------------------------- ----------
+fe80::d248:a1ff:feba:3c61 Ethernet11
+
+Destination: Juniper-156-PTX10002-36QDD
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 18:11:45 ago
+Metric: 100
+Next Hop                  Interface 
+------------------------- ----------
+fe80::d248:a1ff:feba:3c61 Ethernet11
+
+Destination: Juniper-156-PTX10002-36QDD
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 4
+Last updated: 18:06:21 ago
+Metric: 10
+Next Hop                  Interface 
+------------------------- ----------
+fe80::d248:a1ff:feba:3c61 Ethernet11
+
+Destination: Juniper-175-ACX7100-48L
+Path ID: 640
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 4
+Last updated: 17:57:46 ago
+Metric: 10100
+Next Hop                 Interface 
+------------------------ ----------
+fe80::5e07:58ff:fea3:aaa Ethernet13
+
+Destination: Juniper-175-ACX7100-48L
+Path ID: 641
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 8
+Last updated: 0:01:37 ago
+Metric: 110
+Next Hop                  Interface 
+------------------------- ----------
+fe80::5e07:58ff:fea3:aaa  Ethernet13
+fe80::d248:a1ff:feba:3c61 Ethernet11
+fe80::d6af:f7ff:fe2f:1396 Ethernet2 
+
+Destination: Juniper-175-ACX7100-48L
+Path ID: 642
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude 1
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 4
+Last updated: 0:10:58 ago
+Metric: 20
+Next Hop                  Interface
+------------------------- ---------
+fe80::c214:b8ff:fe21:9790 Ethernet4
+

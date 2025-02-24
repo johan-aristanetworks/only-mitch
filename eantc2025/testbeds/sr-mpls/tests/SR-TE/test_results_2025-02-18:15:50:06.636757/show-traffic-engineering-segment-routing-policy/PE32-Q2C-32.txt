@@ -1,0 +1,352 @@
+Endpoint 10.0.0.53 Color 100, Counters: 179671499 packets, 13581273002 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004053
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 1, Counters: 179671499 packets, 13581273002 bytes
+		Protected: Yes
+			Label Stack: [20030 20053], Weight: 1
+			Resolved Label Stack: [20053], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20053], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.53 Color 101, Counters: 153707632 packets, 15333289556 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006053
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 2, Counters: 153707627 packets, 15333288926 bytes
+		Protected: Yes
+			Label Stack: [20175 20053], Weight: 1
+			Resolved Label Stack: [20053], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20053], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.66 Color 100, Counters: 0 packets, 0 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004066
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 3, Counters: 0 packets, 0 bytes
+		Protected: Yes
+			Label Stack: [20030 20066], Weight: 1
+			Resolved Label Stack: [20066], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20066], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.66 Color 101, Counters: 43624432 packets, 4362443200 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006066
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 4, Counters: 43624432 packets, 4362443200 bytes
+		Protected: Yes
+			Label Stack: [20175 20066], Weight: 1
+			Resolved Label Stack: [20066], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20066], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.72 Color 100, Counters: 180126236 packets, 13614924080 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004072
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 5, Counters: 180126236 packets, 13614924080 bytes
+		Protected: Yes
+			Label Stack: [20030 20072], Weight: 1
+			Resolved Label Stack: [20072], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20072], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.72 Color 101, Counters: 153890032 packets, 15351529444 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006072
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 6, Counters: 153890032 packets, 15351529444 bytes
+		Protected: Yes
+			Label Stack: [20175 20072], Weight: 1
+			Resolved Label Stack: [20072], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20072], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.84 Color 100, Counters: 0 packets, 0 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004084
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 7, Counters: 0 packets, 0 bytes
+		Protected: Yes
+			Label Stack: [20030 20084], Weight: 1
+			Resolved Label Stack: [20084], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20084], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.84 Color 101, Counters: 0 packets, 0 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006084
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 8, Counters: 0 packets, 0 bytes
+		Protected: Yes
+			Label Stack: [20175 20084], Weight: 1
+			Resolved Label Stack: [20084], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20084], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.120 Color 100, Counters: 180126217 packets, 13614922134 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004120
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 9, Counters: 180126217 packets, 13614922134 bytes
+		Protected: Yes
+			Label Stack: [20030 20120], Weight: 1
+			Resolved Label Stack: [20120], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20120], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.120 Color 101, Counters: 153891536 packets, 15351679784 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006120
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 10, Counters: 153891536 packets, 15351679784 bytes
+		Protected: Yes
+			Label Stack: [20175 20120], Weight: 1
+			Resolved Label Stack: [20120], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20120], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.124 Color 100, Counters: 185416229 packets, 14006383238 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004124
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 11, Counters: 185416229 packets, 14006383238 bytes
+		Protected: Yes
+			Label Stack: [20030 20124], Weight: 1
+			Resolved Label Stack: [20124], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20124], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.124 Color 101, Counters: 153893044 packets, 15351830896 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:11 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006124
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 12, Counters: 153893044 packets, 15351830896 bytes
+		Protected: Yes
+			Label Stack: [20175 20124], Weight: 1
+			Resolved Label Stack: [20124], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20124], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.128 Color 100, Counters: 185416230 packets, 14006383384 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004128
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 13, Counters: 185416230 packets, 14006383384 bytes
+		Protected: Yes
+			Label Stack: [20030 20128], Weight: 1
+			Resolved Label Stack: [20128], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20128], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.128 Color 101, Counters: 153894540 packets, 15351980454 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006128
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 14, Counters: 153894540 packets, 15351980454 bytes
+		Protected: Yes
+			Label Stack: [20175 20128], Weight: 1
+			Resolved Label Stack: [20128], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20128], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.179 Color 100, Counters: 3144741523 packets, 237224010894 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004179
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 15, Counters: 3144741523 packets, 237224010894 bytes
+		Protected: Yes
+			Label Stack: [20030 20179], Weight: 1
+			Resolved Label Stack: [20179], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20179], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.179 Color 101, Counters: 6107513448 packets, 575064262190 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006179
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 16, Counters: 155892158 packets, 15499452846 bytes
+		Protected: Yes
+			Label Stack: [20175 20179], Weight: 1
+			Resolved Label Stack: [20179], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20179], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.214 Color 100, Counters: 180126239 packets, 13614924984 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004214
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 17, Counters: 180126239 packets, 13614924984 bytes
+		Protected: Yes
+			Label Stack: [20030 20214], Weight: 1
+			Resolved Label Stack: [20214], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20214], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.214 Color 101, Counters: 153882540 packets, 15350780148 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006214
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 18, Counters: 153882540 packets, 15350780148 bytes
+		Protected: Yes
+			Label Stack: [20175 20214], Weight: 1
+			Resolved Label Stack: [20214], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20214], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.217 Color 100, Counters: 180126304 packets, 13614933382 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004217
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 19, Counters: 180126304 packets, 13614933382 bytes
+		Protected: Yes
+			Label Stack: [20030 20217], Weight: 1
+			Resolved Label Stack: [20217], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 20217], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.217 Color 101, Counters: 153884140 packets, 15350942564 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006217
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 20, Counters: 153884045 packets, 15350930594 bytes
+		Protected: Yes
+			Label Stack: [20175 20217], Weight: 1
+			Resolved Label Stack: [20217], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 20217], Next hop: 20.30.32.30, Interface: Ethernet1
+Endpoint 10.0.0.221 Color 100, Counters: 180126234 packets, 13614924198 bytes
+	Path group: State: active (for 00:07:54), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1004221
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 21, Counters: 180126234 packets, 13614924198 bytes
+		Protected: Yes
+			Label Stack: [20030 21221], Weight: 1
+			Resolved Label Stack: [21221], Next hop: 20.30.32.30, Interface: Ethernet1
+			Backup Resolved Label Stack: [20030 21221], Next hop: 20.32.175.175, Interface: Ethernet5
+Endpoint 10.0.0.221 Color 101, Counters: 153885550 packets, 15351081400 bytes
+	Path group: State: active (for 02:46:10), modified: 04:18:10 ago
+		Protocol: Static
+		Endpoint provisioning: Static
+		Originator: 0.0.0.0(AS0)
+		Discriminator: 32769
+		Preference: 10
+		IGP metric: 0 (static)
+		Binding SID: 1006221
+		Path computation: Configured
+		Explicit null label policy: IPv6 (system default)
+		Segment List: State: Valid, ID: 22, Counters: 153885550 packets, 15351081400 bytes
+		Protected: Yes
+			Label Stack: [20175 21221], Weight: 1
+			Resolved Label Stack: [21221], Next hop: 20.32.175.175, Interface: Ethernet5
+			Backup Resolved Label Stack: [20124 2175 21221], Next hop: 20.30.32.30, Interface: Ethernet1

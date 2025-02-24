@@ -1,0 +1,378 @@
+MPLS forwarding table (Label [metric] Vias) - 68 routes 
+MPLS next-hop resolution allow default route: False
+Metric Codes:
+          A - Active metric
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+
+ 20030   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 4
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 20053   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20066   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20072   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20084   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20120   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+ 20124   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20128   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20131   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20156   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20158   A[1]
+                via M, pop
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 20159   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 14
+                    via 20.32.175.175, Ethernet5, label 20159
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 20160   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 4
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 20175   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 2
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label 20179 20175
+ 20179   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20214   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20217   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20221   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 3
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20430   A[1]
+                via M, pop
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 20453   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::3e08:cdff:fe8d:badc Ethernet5
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 20520   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::3e08:cdff:fe8d:badc Ethernet5
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 20556   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::3e08:cdff:fe8d:badc Ethernet5
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 20558   A[1]
+                via M, pop
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 20559   A[1]
+                via M, pop
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 20560   A[1]
+                via M, pop
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 20575   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 13
+                    via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+                    backup via fe80::c6ca:2bff:fe45:a215, Ethernet2, label 20556 20575
+ 21181   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 21182   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 5
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21183   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 4
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21195   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 5
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21201   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 5
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21252   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 21256   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 21284   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 21285   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 5
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21286   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 4
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21303   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 21304   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 25
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label 21285 21304
+ 21305   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 4
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21307   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 21308   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 5
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21309   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 4
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21345   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 21346   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 5
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21347   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 4
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21349   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    21.30.32.30 Ethernet2
+ 21350   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 5
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 21.30.32.30, Ethernet2, label imp-null(3)
+ 21581   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 21582   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 11
+                    via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+                    backup via fe80::c6ca:2bff:fe45:a215, Ethernet2, label imp-null(3)
+ 21583   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 21648   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 21649   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 21650   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 21684   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 21685   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 11
+                    via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+                    backup via fe80::c6ca:2bff:fe45:a215, Ethernet2, label imp-null(3)
+ 21686   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 21703   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 21704   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 15
+                    via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+                    backup via fe80::c6ca:2bff:fe45:a215, Ethernet2, label 21582 21704
+ 21705   A[1]
+                via M, forward
+                    EgressACL: apply
+                    fe80::c6ca:2bff:fe45:a215 Ethernet1
+                    fe80::c6ca:2bff:fe45:a215 Ethernet2
+ 362168  A[1]
+                via M, 20.30.32.30, pop
+                    EgressACL: apply
+                    directly connected, Ethernet1
+                    c4:ca:2b:45:a2:15, vlan 1006
+ 362169  A[1]
+                via M, fe80::c6ca:2bff:fe45:a215, pop
+                    EgressACL: apply
+                    directly connected, Ethernet1
+                    c4:ca:2b:45:a2:15, vlan 1006
+ 362170  A[1]
+                via M, 20.32.175.175, pop
+                    EgressACL: apply
+                    directly connected, Ethernet5
+                    3c:08:cd:8d:ba:dc, vlan 1010
+ 362171  A[1]
+                via M, fe80::3e08:cdff:fe8d:badc, pop
+                    EgressACL: apply
+                    directly connected, Ethernet5
+                    3c:08:cd:8d:ba:dc, vlan 1010
+ 362172  A[1]
+                via M, 21.30.32.30, pop
+                    EgressACL: apply
+                    directly connected, Ethernet2
+                    c4:ca:2b:45:a2:15, vlan 1011
+ 362173  A[1]
+                via M, fe80::c6ca:2bff:fe45:a215, pop
+                    EgressACL: apply
+                    directly connected, Ethernet2
+                    c4:ca:2b:45:a2:15, vlan 1011
+ 378528   [0]
+                via I, ipv4, vrf RED
+ 378529   [0]
+                via I, ipv6, vrf RED
+ 378530   [0]
+                via I, ipv4, vrf FLEXALGO

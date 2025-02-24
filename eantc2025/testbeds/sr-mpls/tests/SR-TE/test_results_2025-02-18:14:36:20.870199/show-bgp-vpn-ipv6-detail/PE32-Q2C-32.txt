@@ -1,0 +1,151 @@
+BGP routing table information for VRF default
+Router identifier 10.0.0.32, local AS number 64512
+BGP routing table entry for IPv6 prefix 2600:50:10:32::/64, Route Distinguisher: 10.0.0.32:5001
+ Paths: 1 available
+  Local
+    - from - (0.0.0.0)
+      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best, redistributed (Connected)
+      Extended Community: Route-Target-AS:5001:5001
+      Local MPLS label (VRF label): 378529
+BGP routing table entry for IPv6 prefix 2600:50:10:53::/64, Route Distinguisher: 53:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.53 from 10.0.0.30 (10.0.0.30)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.53, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 970001
+  Local
+    ::ffff:10.0.0.53 from 10.0.0.175 (10.0.0.175)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.53, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 970001
+BGP routing table entry for IPv6 prefix 2600:50:10:72::/64, Route Distinguisher: 72:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.72 from 10.0.0.30 (10.0.0.30)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.72, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 62003
+  Local
+    ::ffff:10.0.0.72 from 10.0.0.175 (10.0.0.175)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.72, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 62003
+BGP routing table entry for IPv6 prefix 2600:50:10:84::/64, Route Distinguisher: 84:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.84 from 10.0.0.30 (10.0.0.30)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.84, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001
+      Remote MPLS label: 720897
+  Local
+    ::ffff:10.0.0.84 from 10.0.0.175 (10.0.0.175)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.84, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001
+      Remote MPLS label: 720897
+BGP routing table entry for IPv6 prefix 2600:50:10:120::/64, Route Distinguisher: 120:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.120 from 10.0.0.30 (10.0.0.30)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.120, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 1276
+  Local
+    ::ffff:10.0.0.120 from 10.0.0.175 (10.0.0.175)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.120, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 1276
+BGP routing table entry for IPv6 prefix 2600:50:10:124::/64, Route Distinguisher: 124:5001
+ Paths: 1 available
+  Local
+    ::ffff:10.0.0.124 from 10.0.0.175 (10.0.0.175)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.0.124, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 333
+BGP routing table entry for IPv6 prefix 2600:50:10:128::/64, Route Distinguisher: 128:5001
+ Paths: 1 available
+  Local
+    ::ffff:10.0.0.128 from 10.0.0.175 (10.0.0.175)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.0.128, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 48061
+BGP routing table entry for IPv6 prefix 2600:50:10:179::/64, Route Distinguisher: 179:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.179 from 10.0.0.30 (10.0.0.30)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.179, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 16
+  Local
+    ::ffff:10.0.0.179 from 10.0.0.175 (10.0.0.175)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.179, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 16
+BGP routing table entry for IPv6 prefix 2600:50:10:214::/64, Route Distinguisher: 214:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.214 from 10.0.0.30 (10.0.0.30)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.214, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 500000
+  Local
+    ::ffff:10.0.0.214 from 10.0.0.175 (10.0.0.175)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.214, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 500000
+BGP routing table entry for IPv6 prefix 2600:50:10:217::/64, Route Distinguisher: 217:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.217 from 10.0.0.30 (10.0.0.30)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.217, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 524287
+  Local
+    ::ffff:10.0.0.217 from 10.0.0.175 (10.0.0.175)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.217, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 524287
+BGP routing table entry for IPv6 prefix 2600:50:10:221::/64, Route Distinguisher: 210:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.221 from 10.0.0.30 (10.0.0.30)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.221, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 524305
+  Local
+    ::ffff:10.0.0.221 from 10.0.0.175 (10.0.0.175)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.221, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 524305
+BGP routing table entry for IPv6 prefix 2600:51:10:120::/64, Route Distinguisher: 120:5001
+ Paths: 2 available
+  Local
+    ::ffff:10.0.0.120 from 10.0.0.30 (10.0.0.30)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, ECMP head, ECMP, best, ECMP contributor
+      Originator: 10.0.0.120, Cluster list: 10.0.0.30 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 1276
+  Local
+    ::ffff:10.0.0.120 from 10.0.0.175 (10.0.0.175)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, ECMP, ECMP contributor
+      Originator: 10.0.0.120, Cluster list: 10.0.0.175 
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 1276

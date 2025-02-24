@@ -1,0 +1,23 @@
+Traffic over the backup path:
+
+Before line cut:
+
+Arista-PE32-Q2C-32#sh int et5 counters
+Port                           InOctets     InUcastPkts     InMcastPkts     InBcastPkts
+Et5                                   0               0               0               0
+
+Port                          OutOctets    OutUcastPkts    OutMcastPkts    OutBcastPkts
+Et5                                   0               0               0               0
+
+
+
+After convergence:
+
+Arista-PE32-Q2C-32#sh int et5 counters
+Port                           InOctets     InUcastPkts     InMcastPkts     InBcastPkts
+Et5                                2268               8              11               0
+
+Port                          OutOctets    OutUcastPkts    OutMcastPkts    OutBcastPkts
+Et5                            16922430          169098              22               0
+
+

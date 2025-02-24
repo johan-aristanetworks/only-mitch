@@ -1,0 +1,17 @@
+Arista DCS-7280SR3E-40YC6-F
+Hardware version: 11.00
+Serial number: SGD22060176
+Hardware MAC address: c4ca.2b45.a215
+System MAC address: c4ca.2b45.a215
+
+Software image version: 4.33.1.1F
+Architecture: x86_64
+Internal build version: 4.33.1.1F-40155285.43311F
+Internal build ID: 2170da2c-90c5-421e-adc1-86266708cffc
+Image format version: 3.0
+Image optimization: Default
+
+Uptime: 1 day, 0 hours and 49 minutes
+Total memory: 8099700 kB
+Free memory: 4998224 kB
+

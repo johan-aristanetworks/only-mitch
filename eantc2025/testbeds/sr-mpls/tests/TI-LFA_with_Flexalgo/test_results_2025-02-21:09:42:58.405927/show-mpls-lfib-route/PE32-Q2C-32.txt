@@ -1,0 +1,266 @@
+MPLS forwarding table (Label [metric] Vias) - 52 routes 
+MPLS next-hop resolution allow default route: False
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+Source Codes:
+          G - gRIBI, S - Static MPLS route,
+          B2 - BGP L2 EVPN, B3 - BGP L3 VPN,
+          R - RSVP, P - Pseudowire,
+          L - LDP, M - MLDP,
+          I>BL - IS-IS SR to BGP LU, IP - IS-IS SR prefix segment,
+          IA - IS-IS SR adjacency segment, I>L - IS-IS SR to LDP,
+          L>I - LDP to IS-IS SR, OP - Ospf SR prefix segment,
+          OA - Ospf SR adjacency segment, OL - Ospf SR segment to LDP,
+          L0 - LDP to Ospf SR segment, BL - BGP LU,
+          BL>L - BGP LU to LDP, L>BL - LDP to BGP LU,
+          ST - SR TE policy, SMP - SR P2MP,
+          BL>I - BGP LU to IS-IS SR, BLS - BGP Link State,
+          DE - Debug LFIB
+
+ IP    20030    [1], 10.0.0.30/32
+                via TI-LFA tunnel index 7, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ IP    20053    [1], 10.0.0.53/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20084    [1], 10.0.0.84/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20124    [1], 10.0.0.124/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20128    [1], 10.0.0.128/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20131    [1], 10.0.0.131/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20156    [1], 10.0.0.156/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20158    [1], 10.0.0.30/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 15, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20158
+ IP    20159    [1], 10.0.0.30/32, algorithm MIN-TE
+                via TI-LFA tunnel index 12, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 21308 20159
+ IP    20160    [1], 10.0.0.30/32, algorithm ADMIN
+                via M, 20.30.32.30, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20175    [1], 10.0.0.175/32
+                via TI-LFA tunnel index 5, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label 20156 20175
+ IP    20179    [1], 10.0.0.179/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20214    [1], 10.0.0.214/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20217    [1], 10.0.0.217/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20221    [1], 10.0.0.221/32
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    20453    [1], 2002::53/128
+                via M, fe80::3e08:cdff:fe8d:badc, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet5
+                via M, fe80::c6ca:2bff:fe45:a215, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20556    [1], 2002::156/128
+                via M, fe80::3e08:cdff:fe8d:badc, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet5
+                via M, fe80::c6ca:2bff:fe45:a215, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20575    [1], 2002::175/128
+                via TI-LFA tunnel index 10, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+                    backup via fe80::c6ca:2bff:fe45:a215, Ethernet1, label 20556 20575
+ IP    21181    [1], 10.0.0.53/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    21182    [1], 10.0.0.53/32, algorithm MIN-TE
+                via TI-LFA tunnel index 4, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label imp-null(3)
+ IP    21183    [1], 10.0.0.53/32, algorithm ADMIN
+                via M, 20.30.32.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    21252    [1], 10.0.0.124/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    21256    [1], 10.0.0.128/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    21284    [1], 10.0.0.156/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    21285    [1], 10.0.0.156/32, algorithm MIN-TE
+                via TI-LFA tunnel index 4, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label imp-null(3)
+ IP    21286    [1], 10.0.0.156/32, algorithm ADMIN
+                via M, 20.30.32.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    21303    [1], 10.0.0.175/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 14, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label 21303
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    21304    [1], 10.0.0.175/32, algorithm MIN-TE
+                via TI-LFA tunnel index 3, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label 21346 21304
+ IP    21305    [1], 10.0.0.175/32, algorithm ADMIN
+                via M, 20.30.32.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    21307    [1], 10.0.0.179/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    21308    [1], 10.0.0.179/32, algorithm MIN-TE
+                via TI-LFA tunnel index 4, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label imp-null(3)
+ IP    21309    [1], 10.0.0.179/32, algorithm ADMIN
+                via M, 20.30.32.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    21345    [1], 10.0.0.217/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    21346    [1], 10.0.0.217/32, algorithm MIN-TE
+                via TI-LFA tunnel index 4, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label imp-null(3)
+ IP    21347    [1], 10.0.0.217/32, algorithm ADMIN
+                via M, 20.30.32.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    21349    [1], 10.0.0.221/32, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 6, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ IP    21581    [1], 2002::53/128, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 16, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via fe80::c6ca:2bff:fe45:a215, Ethernet1, label imp-null(3)
+                    backup via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+ IP    21582    [1], 2002::53/128, algorithm MIN-TE
+                via TI-LFA tunnel index 8, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+                    backup via fe80::c6ca:2bff:fe45:a215, Ethernet1, label imp-null(3)
+ IP    21583    [1], 2002::53/128, algorithm ADMIN
+                via M, fe80::c6ca:2bff:fe45:a215, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    21684    [1], 2002::156/128, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 16, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via fe80::c6ca:2bff:fe45:a215, Ethernet1, label imp-null(3)
+                    backup via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+ IP    21685    [1], 2002::156/128, algorithm MIN-TE
+                via TI-LFA tunnel index 8, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+                    backup via fe80::c6ca:2bff:fe45:a215, Ethernet1, label imp-null(3)
+ IP    21686    [1], 2002::156/128, algorithm ADMIN
+                via M, fe80::c6ca:2bff:fe45:a215, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    21703    [1], 2002::175/128, algorithm MIN-LATENCY
+                via TI-LFA tunnel index 17, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via fe80::c6ca:2bff:fe45:a215, Ethernet1, label 21703
+                    backup via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+ IP    21704    [1], 2002::175/128, algorithm MIN-TE
+                via TI-LFA tunnel index 9, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via fe80::3e08:cdff:fe8d:badc, Ethernet5, label imp-null(3)
+                    backup via fe80::c6ca:2bff:fe45:a215, Ethernet1, label 21685 21704
+ IP    21705    [1], 2002::175/128, algorithm ADMIN
+                via M, fe80::c6ca:2bff:fe45:a215, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IA    362168   [1]
+                via M, 20.30.32.30, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+ IA    362169   [1]
+                via M, fe80::c6ca:2bff:fe45:a215, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+ IA    362170   [1]
+                via M, 20.32.175.175, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet5
+ IA    362171   [1]
+                via M, fe80::3e08:cdff:fe8d:badc, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet5
+ B3    378528   [0]
+                via I, ipv4, vrf RED
+ B3    378529   [0]
+                via I, ipv6, vrf RED
+ B3    378530   [0]
+                via I, ipv4, vrf FLEXALGO

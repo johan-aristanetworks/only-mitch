@@ -1,0 +1,56 @@
+VRF: default, Protocol: route-input
+Codes: C - Connected, S - Static, P - Route Input, G - Gribi
+       B - BGP, O - Ospf, O3 - Ospf3, I - Isis, R - Rip, VL - VRF Leak
+       > - Best Route, * - Unresolved Next hop
+       EM - Exact match of the SR-TE Policy
+       NM - Null endpoint match of the SR-TE Policy
+       AM - Any endpoint match of the SR-TE Policy
+       L - Part of a recursive route resolution loop
+       A - Next hop not resolved in ARP/ND
+       NF - Not in FEC
+>P    ::/96 [1 pref/0 metric] updated 01:16:55 ago
+         via Null0, directly connected [NF]
+>P    ::ffff:127.0.0.0/104 [1 pref/0 metric] updated 01:16:55 ago
+         via :: [1 pref/1 metric] type ipv6
+            via , directly connected
+>P    fe80::/10 [1 pref/0 metric] updated 01:16:55 ago
+VRF: default, Protocol: isis
+Codes: C - Connected, S - Static, P - Route Input, G - Gribi
+       B - BGP, O - Ospf, O3 - Ospf3, I - Isis, R - Rip, VL - VRF Leak
+       > - Best Route, * - Unresolved Next hop
+       EM - Exact match of the SR-TE Policy
+       NM - Null endpoint match of the SR-TE Policy
+       AM - Any endpoint match of the SR-TE Policy
+       L - Part of a recursive route resolution loop
+       A - Next hop not resolved in ARP/ND
+       NF - Not in FEC
+>I    2001:0:30:31::/64 [115 pref/20 metric] updated 01:16:45 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:32::/64 [115 pref/20 metric] updated 01:16:51 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:72::/64 [115 pref/20 metric] updated 01:16:51 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:84::/64 [115 pref/20 metric] updated 01:16:51 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:120::/64 [115 pref/20 metric] updated 01:16:51 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:124::/64 [115 pref/20 metric] updated 00:32:27 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:128::/64 [115 pref/20 metric] updated 00:32:47 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:179::/64 [115 pref/20 metric] updated 00:05:06 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:184::/64 [115 pref/20 metric] updated 00:46:20 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:214::/64 [115 pref/20 metric] updated 01:16:51 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:217::/64 [115 pref/20 metric] updated 01:05:40 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:30:221::/64 [115 pref/20 metric] updated 01:16:51 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:53:120::/64 [115 pref/20 metric] updated 01:16:51 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:120:175::/64 [115 pref/30 metric] updated 01:03:29 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1
+>I    2001:0:120:214::/64 [115 pref/30 metric] updated 01:16:51 ago
+         via fe80::c6ca:2bff:fe45:a215, Ethernet1

@@ -1,0 +1,14 @@
+OSPF Instance ID: 1
+SR supported Data-plane: MPLS			SR Router ID: 10.0.0.32
+Adj-SID allocation mode: SR-adjacencies
+Adj-SID allocation pool: Base: 411296     Size: 16384
+Adjacency Segment Count: 1
+Flag Descriptions: B: Backup, V: Value, L: Local,
+                   G: Group, P: Persistent
+
+Segment Status codes: P2P - Point-to-Point adjacency, LAN - Broadcast adjacency
+
+Adj IP Address Local Intf    SID SID Source               Flags Type  Protection
+-------------- ---------- ------ ---------- ------------------- ---- -----------
+ 20.32.175.175        Et5 411296    Dynamic B:0 V:1 L:1 G:0 P:0  P2P unprotected
+

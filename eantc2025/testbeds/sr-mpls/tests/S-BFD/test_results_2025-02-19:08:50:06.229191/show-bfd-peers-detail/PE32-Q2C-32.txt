@@ -1,0 +1,952 @@
+VRF name: default
+-----------------
+Peer Addr 0.8.0.0, Tunnel ID 140737488355337(SR), Segment list ID 9, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 764890487/524288
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/18/25 17:10:06.742
+Last Down NA
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 3 ms, Received Multiplier: 3
+Rx Count: 600570, Rx Interval (ms) min/max/avg: 75/108/92 last: -559 ms ago
+Tx Count: 600570, Tx Interval (ms) min/max/avg: 80/108/92 last: -559 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 529709, 2*TxInt: 70860, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 54/4110/110 last: 133 us
+Registered protocols: sr-te policy
+Uptime: 15:40:01.88
+Tunnel Info:  MPLS label stack: [20175 20217]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 0         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 30            
+              My Discr.: 524288    - Your Discr.: 764890487
+              Min tx interval: 100 - Min rx interval: 3    
+              Min Echo interval: 0                         
+
+Peer Addr 0.8.0.0, Tunnel ID 140737488355341(SR), Segment list ID 13, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 3200281249/524288
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:22.169
+Last Down 02/19/25 08:48:41.886
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 1000 ms, Multiplier: 3
+Received RxInt: 3 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 96, Tx Interval (ms) min/max/avg: 768/1024/896 last: 36 ms ago
+Detect Time: 3000 ms
+Sched Delay: 1*TxInt: 91, 2*TxInt: 4, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 20217]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0          
+              State bit: Up        - Demand bit: 0          
+              Poll bit: 0          - Final bit: 0           
+              Multiplier: 3        - Length: 30             
+              My Discr.: 524288    - Your Discr.: 3200281249
+              Min tx interval: 100 - Min rx interval: 3     
+              Min Echo interval: 0                          
+
+Peer Addr 10.0.0.124, Tunnel ID 140737488355333(SR), Segment list ID 5, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 2626331766/167772284
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:22.041
+Last Down 02/19/25 08:48:41.945
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 1000 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 97, Tx Interval (ms) min/max/avg: 764/1024/893 last: -539 ms ago
+Detect Time: 3000 ms
+Sched Delay: 1*TxInt: 91, 2*TxInt: 5, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 20124]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0          
+              State bit: Up        - Demand bit: 0          
+              Poll bit: 0          - Final bit: 0           
+              Multiplier: 3        - Length: 30             
+              My Discr.: 167772284 - Your Discr.: 2626331766
+              Min tx interval: 100 - Min rx interval: 0     
+              Min Echo interval: 0                          
+
+Peer Addr 10.0.0.124, Tunnel ID 140737488355336(SR), Segment list ID 8, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 252341208/167772284
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/18/25 17:10:06.743
+Last Down NA
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 600435, Rx Interval (ms) min/max/avg: 75/108/92 last: -599 ms ago
+Tx Count: 600434, Tx Interval (ms) min/max/avg: 80/108/92 last: -599 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 528973, 2*TxInt: 71460, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 83/819/133 last: 169 us
+Registered protocols: sr-te policy
+Uptime: 15:40:01.88
+Tunnel Info:  MPLS label stack: [20175 20124]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 0         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 30            
+              My Discr.: 167772284 - Your Discr.: 252341208
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.128, Tunnel ID 140737488355330(SR), Segment list ID 2, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 677506679/167772288
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/18/25 17:10:06.737
+Last Down NA
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 600690, Rx Interval (ms) min/max/avg: 75/108/92 last: -511 ms ago
+Tx Count: 600689, Tx Interval (ms) min/max/avg: 80/108/92 last: -511 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 529897, 2*TxInt: 70791, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 52/1671/108 last: 150 us
+Registered protocols: sr-te policy
+Uptime: 15:40:01.89
+Tunnel Info:  MPLS label stack: [20175 20128]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 0         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 30            
+              My Discr.: 167772288 - Your Discr.: 677506679
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.128, Tunnel ID 140737488355344(SR), Segment list ID 16, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 2025507954/167772288
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:22.169
+Last Down 02/19/25 08:48:41.886
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 1000 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 95, Tx Interval (ms) min/max/avg: 768/1028/904 last: 68 ms ago
+Detect Time: 3000 ms
+Sched Delay: 1*TxInt: 91, 2*TxInt: 3, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 20128]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0          
+              State bit: Up        - Demand bit: 0          
+              Poll bit: 0          - Final bit: 0           
+              Multiplier: 3        - Length: 30             
+              My Discr.: 167772288 - Your Discr.: 2025507954
+              Min tx interval: 100 - Min rx interval: 0     
+              Min Echo interval: 0                          
+
+Peer Addr 10.0.0.156, Tunnel ID 140737488355345(SR), Segment list ID 17, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 238718245/167772316
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:29:37.757
+Last Down 02/19/25 08:18:35.641
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 13263, Rx Interval (ms) min/max/avg: 75/108/92 last: -539 ms ago
+Tx Count: 13262, Tx Interval (ms) min/max/avg: 80/108/92 last: -539 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 11479, 2*TxInt: 1782, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 90/955/219 last: 132 us
+Registered protocols: sr-te policy
+Uptime: 20:30.87
+Tunnel Info:  MPLS label stack: [20175 20156]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 0         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 30            
+              My Discr.: 167772316 - Your Discr.: 238718245
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.156, Tunnel ID 140737488355346(SR), Segment list ID 18, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 1046734703/167772316
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:22.621
+Last Down 02/19/25 08:48:41.977
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 1000 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 97, Tx Interval (ms) min/max/avg: 764/1024/889 last: -347 ms ago
+Detect Time: 3000 ms
+Sched Delay: 1*TxInt: 91, 2*TxInt: 5, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 20156]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0          
+              State bit: Up        - Demand bit: 0          
+              Poll bit: 0          - Final bit: 0           
+              Multiplier: 3        - Length: 30             
+              My Discr.: 167772316 - Your Discr.: 1046734703
+              Min tx interval: 100 - Min rx interval: 0     
+              Min Echo interval: 0                          
+
+Peer Addr 10.0.0.179, Tunnel ID 140737488355335(SR), Segment list ID 7, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 1270332993/167772339
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:21.977
+Last Down 02/19/25 08:48:41.920
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 1000 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 96, Tx Interval (ms) min/max/avg: 764/1024/903 last: -571 ms ago
+Detect Time: 3000 ms
+Sched Delay: 1*TxInt: 86, 2*TxInt: 9, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 20179]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0          
+              State bit: Up        - Demand bit: 0          
+              Poll bit: 0          - Final bit: 0           
+              Multiplier: 3        - Length: 30             
+              My Discr.: 167772339 - Your Discr.: 1270332993
+              Min tx interval: 100 - Min rx interval: 0     
+              Min Echo interval: 0                          
+
+Peer Addr 10.0.0.179, Tunnel ID 140737488355340(SR), Segment list ID 12, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 35964480/167772339
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 02:47:32.674
+Last Down 02/19/25 02:47:32.601
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 235213, Rx Interval (ms) min/max/avg: 16/179/92 last: -576 ms ago
+Tx Count: 235213, Tx Interval (ms) min/max/avg: 80/108/92 last: -575 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 206735, 2*TxInt: 28477, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 343/72441/705 last: 553 us
+Registered protocols: sr-te policy
+Uptime: 06:02:35.96
+Tunnel Info:  MPLS label stack: [20175 20179]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0        
+              State bit: Up        - Demand bit: 0        
+              Poll bit: 0          - Final bit: 0         
+              Multiplier: 3        - Length: 30           
+              My Discr.: 167772339 - Your Discr.: 35964480
+              Min tx interval: 100 - Min rx interval: 0   
+              Min Echo interval: 0                        
+
+Peer Addr 255.255.255.255, Tunnel ID 140737488355329(SR), Segment list ID 1, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 1863129822/1863129822
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:22.845
+Last Down 02/19/25 08:48:41.917
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 97, Tx Interval (ms) min/max/avg: 764/1024/891 last: -411 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 93, 2*TxInt: 3, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 20072]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1            - Diagnostic: 0          
+              State bit: Up         - Demand bit: 0          
+              Poll bit: 0           - Final bit: 0           
+              Multiplier: 3         - Length: 30             
+              My Discr.: 1863129822 - Your Discr.: 1863129822
+              Min tx interval: 100  - Min rx interval: 0     
+              Min Echo interval: 0                           
+
+Peer Addr 255.255.255.255, Tunnel ID 140737488355331(SR), Segment list ID 3, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 1584396073/1584396073
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/18/25 17:10:06.737
+Last Down NA
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 600582, Rx Interval (ms) min/max/avg: 75/108/92 last: -595 ms ago
+Tx Count: 600582, Tx Interval (ms) min/max/avg: 80/108/92 last: -595 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 529616, 2*TxInt: 70965, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 40/782/100 last: 124 us
+Registered protocols: sr-te policy
+Uptime: 15:40:01.90
+Tunnel Info:  MPLS label stack: [20175 21221]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1            - Diagnostic: 0          
+              State bit: Up         - Demand bit: 0          
+              Poll bit: 0           - Final bit: 0           
+              Multiplier: 3         - Length: 30             
+              My Discr.: 1584396073 - Your Discr.: 1584396073
+              Min tx interval: 100  - Min rx interval: 0     
+              Min Echo interval: 0                           
+
+Peer Addr 255.255.255.255, Tunnel ID 140737488355332(SR), Segment list ID 4, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 1600151469/1600151469
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/18/25 17:21:42.977
+Last Down NA
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 600580, Rx Interval (ms) min/max/avg: 75/108/92 last: -587 ms ago
+Tx Count: 600580, Tx Interval (ms) min/max/avg: 80/108/92 last: -587 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 529319, 2*TxInt: 71260, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 38/1660/99 last: 107 us
+Registered protocols: sr-te policy
+Uptime: 15:28:25.67
+Tunnel Info:  MPLS label stack: [20175 20066]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1            - Diagnostic: 0          
+              State bit: Up         - Demand bit: 0          
+              Poll bit: 0           - Final bit: 0           
+              Multiplier: 3         - Length: 30             
+              My Discr.: 1600151469 - Your Discr.: 1600151469
+              Min tx interval: 100  - Min rx interval: 0     
+              Min Echo interval: 0                           
+
+Peer Addr 255.255.255.255, Tunnel ID 140737488355334(SR), Segment list ID 6, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 4168450569/4168450569
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:21.913
+Last Down 02/19/25 08:48:41.885
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 96, Tx Interval (ms) min/max/avg: 768/1024/896 last: 36 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 89, 2*TxInt: 6, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 20120]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1            - Diagnostic: 0          
+              State bit: Up         - Demand bit: 0          
+              Poll bit: 0           - Final bit: 0           
+              Multiplier: 3         - Length: 30             
+              My Discr.: 4168450569 - Your Discr.: 4168450569
+              Min tx interval: 100  - Min rx interval: 0     
+              Min Echo interval: 0                           
+
+Peer Addr 255.255.255.255, Tunnel ID 140737488355338(SR), Segment list ID 10, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 866680721/866680721
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:21.977
+Last Down 02/19/25 08:48:41.917
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 96, Tx Interval (ms) min/max/avg: 768/1024/895 last: 36 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 90, 2*TxInt: 5, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 20066]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 0         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 30            
+              My Discr.: 866680721 - Your Discr.: 866680721
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 255.255.255.255, Tunnel ID 140737488355339(SR), Segment list ID 11, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 3690177226/3690177226
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/18/25 17:26:07.041
+Last Down NA
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 599784, Rx Interval (ms) min/max/avg: 75/108/92 last: -527 ms ago
+Tx Count: 599785, Tx Interval (ms) min/max/avg: 80/108/92 last: -527 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 528376, 2*TxInt: 71408, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 66/1940/121 last: 168 us
+Registered protocols: sr-te policy
+Uptime: 15:24:01.61
+Tunnel Info:  MPLS label stack: [20175 20120]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1            - Diagnostic: 0          
+              State bit: Up         - Demand bit: 0          
+              Poll bit: 0           - Final bit: 0           
+              Multiplier: 3         - Length: 30             
+              My Discr.: 3690177226 - Your Discr.: 3690177226
+              Min tx interval: 100  - Min rx interval: 0     
+              Min Echo interval: 0                           
+
+Peer Addr 255.255.255.255, Tunnel ID 140737488355342(SR), Segment list ID 14, Type SBFD(initiator), State Down
+VRF default, LAddr 10.0.0.32, LD/RD 2613258878/2613258878
+Session state is Down and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/19/25 08:46:22.073
+Last Down 02/19/25 08:48:41.919
+Last Diag: Detect Time Exp
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 1000 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 0, Rx Interval (ms) min/max/avg: 0/0/0 last: never
+Tx Count: 96, Tx Interval (ms) min/max/avg: 768/1028/896 last: 228 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 89, 2*TxInt: 6, 3*TxInt: 0, GT 3*TxInt: 0
+Registered protocols: sr-te policy
+Uptime: NA
+Tunnel Info:  MPLS label stack: [20030 21221]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1            - Diagnostic: 0          
+              State bit: Up         - Demand bit: 0          
+              Poll bit: 0           - Final bit: 0           
+              Multiplier: 3         - Length: 30             
+              My Discr.: 2613258878 - Your Discr.: 2613258878
+              Min tx interval: 100  - Min rx interval: 0     
+              Min Echo interval: 0                           
+
+Peer Addr 255.255.255.255, Tunnel ID 140737488355343(SR), Segment list ID 15, Type SBFD(initiator), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 3974681151/3974681151
+Session state is Up and not using echo function
+Hardware Acceleration: Async Off, Echo Off
+Last Up 02/18/25 17:23:04.857
+Last Down NA
+Last Diag: No Diagnostic
+Authentication mode: None
+Shared-secret profile: None
+TxInt: 100 ms, RxInt: 100 ms, Multiplier: 3
+Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 600643, Rx Interval (ms) min/max/avg: 75/108/92 last: -539 ms ago
+Tx Count: 600643, Tx Interval (ms) min/max/avg: 80/108/92 last: -539 ms ago
+Detect Time: 300 ms
+Sched Delay: 1*TxInt: 529520, 2*TxInt: 71122, 3*TxInt: 0, GT 3*TxInt: 0
+RTT (us) min/max/avg: 40/4072/101 last: 146 us
+Registered protocols: sr-te policy
+Uptime: 15:27:03.80
+Tunnel Info:  MPLS label stack: [20175 20072]
+              MPLS EXP: 7                    
+              IP DSCP: 192                   
+Last packet:  Version: 1            - Diagnostic: 0          
+              State bit: Up         - Demand bit: 0          
+              Poll bit: 0           - Final bit: 0           
+              Multiplier: 3         - Length: 30             
+              My Discr.: 3974681151 - Your Discr.: 3974681151
+              Min tx interval: 100  - Min rx interval: 0     
+              Min Echo interval: 0                           
+
+Peer Addr 10.0.0.120, Dest Port 42781, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/32782
+Session state is Up
+Last Up 02/18/25 17:02:22.685
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 17:02:22.685, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 193457, Rx Interval (ms) min/max/avg: 99/303/293 last: 42 ms ago
+Tx Count: 193457, last: 42 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 32782     - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.124, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/16385
+Session state is Up
+Last Up 02/18/25 16:29:08.630
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:29:08.630, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 10 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 196194, Rx Interval (ms) min/max/avg: 1/300/300 last: 268 ms ago
+Tx Count: 196194, last: 268 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 16385     - Your Discr.: 167772192
+              Min tx interval: 10  - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.124, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/16386
+Session state is Up
+Last Up 02/18/25 16:29:04.230
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:33:36.331, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 10 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 196145, Rx Interval (ms) min/max/avg: 1/12191/300 last: 282 ms ago
+Tx Count: 196145, last: 282 ms ago
+Last packet:  Version: 1           - Diagnostic: 3         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 16386     - Your Discr.: 167772192
+              Min tx interval: 10  - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.128, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/16385
+Session state is Up
+Last Up 02/18/25 16:29:04.729
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 17:05:48.952, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 10 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 196214, Rx Interval (ms) min/max/avg: 0/5371/299 last: 189 ms ago
+Tx Count: 196214, last: 189 ms ago
+Last packet:  Version: 1           - Diagnostic: 1         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 16385     - Your Discr.: 167772192
+              Min tx interval: 10  - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.128, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/16386
+Session state is Up
+Last Up 02/18/25 16:28:58.529
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:28:58.529, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 10 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 196249, Rx Interval (ms) min/max/avg: 0/300/299 last: 62 ms ago
+Tx Count: 196249, last: 62 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 16386     - Your Discr.: 167772192
+              Min tx interval: 10  - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.156, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/22
+Session state is Up
+Last Up 02/19/25 07:50:14.436
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/19/25 08:21:31.416, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 300 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 6648, Rx Interval (ms) min/max/avg: 224/1803825/540 last: 247 ms ago
+Tx Count: 6648, last: 247 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 22        - Your Discr.: 167772192
+              Min tx interval: 300 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.179, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/18
+Session state is Up
+Last Up 02/18/25 16:24:10.654
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:25:09.932, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 10 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 3382, Rx Interval (ms) min/max/avg: 222/1990/276 last: 58224831 ms ago
+Tx Count: 3382, last: 58224831 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 18        - Your Discr.: 167772192
+              Min tx interval: 10  - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.179, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/24
+Session state is Up
+Last Up 02/18/25 16:39:50.443
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:44:45.360, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 10 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 3166, Rx Interval (ms) min/max/avg: 216/169656/332 last: 57167171 ms ago
+Tx Count: 3166, last: 57167171 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 24        - Your Discr.: 167772192
+              Min tx interval: 10  - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.179, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/26
+Session state is Up
+Last Up 02/18/25 16:57:28.366
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:58:27.221, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 10 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 417, Rx Interval (ms) min/max/avg: 224/1987/371 last: 57007744 ms ago
+Tx Count: 417, last: 57007744 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 26        - Your Discr.: 167772192
+              Min tx interval: 10  - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.179, Dest Port 4784, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/29
+Session state is Up
+Last Up 02/18/25 17:00:07.899
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 17:27:18.350, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 216500, Rx Interval (ms) min/max/avg: 191/1987/263 last: 251 ms ago
+Tx Count: 216500, last: 251 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 29        - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/1
+Session state is Up
+Last Up 02/18/25 16:31:02.031
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:31:02.031, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 3397, Rx Interval (ms) min/max/avg: 101/262/262 last: 57856690 ms ago
+Tx Count: 3397, last: 57856690 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 1         - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/77
+Session state is Up
+Last Up 02/18/25 16:41:18.315
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:41:18.315, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 1046, Rx Interval (ms) min/max/avg: 6/262/261 last: 57856689 ms ago
+Tx Count: 1046, last: 57856689 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 77        - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/140
+Session state is Up
+Last Up 02/18/25 16:45:56.810
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:45:56.810, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 269, Rx Interval (ms) min/max/avg: 4/262/260 last: 57781976 ms ago
+Tx Count: 269, last: 57781976 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 140       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/141
+Session state is Up
+Last Up 02/18/25 16:45:56.804
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:45:56.804, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 225, Rx Interval (ms) min/max/avg: 2/262/260 last: 57793439 ms ago
+Tx Count: 225, last: 57793439 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 141       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/168
+Session state is Up
+Last Up 02/18/25 16:47:00.981
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:47:00.981, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 24, Rx Interval (ms) min/max/avg: 10/262/246 last: 57781976 ms ago
+Tx Count: 24, last: 57781976 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 168       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/178
+Session state is Up
+Last Up 02/18/25 16:47:09.461
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:47:09.461, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 2696, Rx Interval (ms) min/max/avg: 10/262/262 last: 57072911 ms ago
+Tx Count: 2696, last: 57072911 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 178       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/179
+Session state is Up
+Last Up 02/18/25 16:47:09.453
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:47:09.453, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 2696, Rx Interval (ms) min/max/avg: 1/262/262 last: 57072910 ms ago
+Tx Count: 2696, last: 57072910 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 179       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/332
+Session state is Up
+Last Up 02/18/25 16:58:55.819
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:58:55.819, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 38, Rx Interval (ms) min/max/avg: 4/262/250 last: 57063542 ms ago
+Tx Count: 38, last: 57063542 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 332       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/333
+Session state is Up
+Last Up 02/18/25 16:58:55.827
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:58:55.827, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 79, Rx Interval (ms) min/max/avg: 4/262/255 last: 57052842 ms ago
+Tx Count: 79, last: 57052842 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 333       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/336
+Session state is Up
+Last Up 02/18/25 16:59:05.131
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:59:05.131, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 217644, Rx Interval (ms) min/max/avg: 8/262/262 last: 206 ms ago
+Tx Count: 217644, last: 205 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 336       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.217, Dest Port 49152, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/338
+Session state is Up
+Last Up 02/18/25 16:59:15.940
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:59:15.940, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 100 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 217603, Rx Interval (ms) min/max/avg: 10/268/262 last: 146 ms ago
+Tx Count: 217603, last: 146 ms ago
+Last packet:  Version: 1           - Diagnostic: 0         
+              State bit: Up        - Demand bit: 1         
+              Poll bit: 0          - Final bit: 0          
+              Multiplier: 3        - Length: 24            
+              My Discr.: 338       - Your Discr.: 167772192
+              Min tx interval: 100 - Min rx interval: 0    
+              Min Echo interval: 0                         
+
+Peer Addr 10.0.0.221, Dest Port 49153, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/167780343
+Session state is Up
+Last Up 02/18/25 17:00:53.784
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 17:00:53.784, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 1000 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 56938, Rx Interval (ms) min/max/avg: 999/1001/1000 last: 720 ms ago
+Tx Count: 56938, last: 720 ms ago
+Last packet:  Version: 1            - Diagnostic: 0         
+              State bit: Up         - Demand bit: 1         
+              Poll bit: 0           - Final bit: 0          
+              Multiplier: 3         - Length: 24            
+              My Discr.: 167780343  - Your Discr.: 167772192
+              Min tx interval: 1000 - Min rx interval: 0    
+              Min Echo interval: 0                          
+
+Peer Addr 10.0.0.221, Dest Port 49153, Type SBFD(reflector), State Up
+VRF default, LAddr 10.0.0.32, LD/RD 167772192/167780351
+Session state is Up
+Last Up 02/18/25 16:38:52.367
+Last Down NA
+Last Diag: No Diagnostic
+Last Rx state change: 02/18/25 16:38:52.367, old Rx state is Down
+RxInt: 300 ms
+Received TxInt: 1000 ms, Received RxInt: 0 ms, Received Multiplier: 3
+Rx Count: 58259, Rx Interval (ms) min/max/avg: 999/1001/1000 last: 720 ms ago
+Tx Count: 58259, last: 720 ms ago
+Last packet:  Version: 1            - Diagnostic: 0         
+              State bit: Up         - Demand bit: 1         
+              Poll bit: 0           - Final bit: 0          
+              Multiplier: 3         - Length: 24            
+              My Discr.: 167780351  - Your Discr.: 167772192
+              Min tx interval: 1000 - Min rx interval: 0    
+              Min Echo interval: 0                          
+

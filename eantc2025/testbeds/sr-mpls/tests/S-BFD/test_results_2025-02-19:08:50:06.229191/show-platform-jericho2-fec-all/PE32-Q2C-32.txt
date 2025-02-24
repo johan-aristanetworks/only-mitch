@@ -1,0 +1,101 @@
+Tunnel Type: Mpop(mpls pop), Mpush(mpls push), Mswap(mpls swap),
+             MoG(mpls-over-gre), T(IPv4 tunnels GRE/GUE/VXLAN),
+             N(Ipsec tunnel NAT-T [IP,SPORT,DPORT])
+CW  - Control word
+FL  - Flow label
+EL  - Entropy label
+ELI - Entropy label indicator
+D   - ECMP is divergent across switching chips
+ -----------------------------------------------------------------------------------------------
+|                                              FEC Entry                                        |
+ -----------------------------------------------------------------------------------------------
+|     |      |     |                    |     |        |                   |
+| ECMP|  FEC |     |                    |     |        |                   |
+|Index| Index| Cmd |     Destination    | VID | Outlif |   MAC / CPU Code  |    Tunnel Value
+ -----------------------------------------------------------------------------------------------
+|16384|288383|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|16384|288384|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|16385|288394|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|16385|288395|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |157288|ROUTE| FEC 288396         |   - |  -     |                   |   -   
+|  -  |157289|ROUTE| FEC 288397         |   - |  -     |                   |   -   
+|  -  |157290|ROUTE| FEC 288379         |   - |  -     |                   |   -   
+|  -  |157291|ROUTE| FEC 288373         |   - |2097141 |                 - |Mpush 16
+|  -  |157292|ROUTE| FEC 288373         |   - |2097141 |                 - |Mpush 16
+|  -  |157294|ROUTE| FEC 288406         |   - |2097123 |                 - |Mpush 16
+|  -  |157295|ROUTE| FEC 288378         |   - |2097138 |                 - |Mpush 16
+|  -  |157299|ROUTE| FEC 288392         |   - |  -     |                   |   -   
+|  -  |157300|ROUTE| FEC 288380         |   - |2097151 |                 - |Mpush 970000
+|  -  |157301|ROUTE| FEC 288392         |   - |2097122 |                 - |Mpush 332
+|  -  |157302|ROUTE| FEC 288379         |   - |2097148 |                 - |Mpush 1277
+|  -  |157303|ROUTE| FEC 288382         |   - |2097136 |                 - |Mpush 48060
+|  -  |157304|ROUTE| FEC 288390         |   - |2097128 |                 - |Mpush 524305
+|  -  |157305|ROUTE| FEC 288401         |   - |2097149 |                 - |Mpush 500000
+|  -  |157306|ROUTE| FEC 288405         |   - |2097133 |                 - |Mpush 524287
+|  -  |157307|ROUTE| FEC 288370         |   - |2097134 |                 - |Mpush 62001
+|  -  |157308|ROUTE| FEC 288382         |   - |  -     |                   |   -   
+|  -  |157309|ROUTE| FEC 288377         |   - |2097146 |                 - |Mpush 62003
+|  -  |157310|ROUTE| FEC 288397         |   - |2097130 |                 - |Mpush 62002
+|  -  |157311|ROUTE| FEC 288396         |   - |2097131 |                 - |Mpush 62000
+|  -  |157312|ROUTE| FEC 288380         |   - |2097150 |                 - |Mpush 970001
+|  -  |157313|ROUTE| FEC 288406         |   - |  -     |                   |   -   
+|  -  |157314|ROUTE| FEC 288405         |   - |  -     |                   |   -   
+|  -  |157315|ROUTE| FEC 16385          |   - |2097147 |                 - |Mpush 20156 16
+|  -  |157316|ROUTE| FEC 16385          |   - |2097147 |                 - |Mpush 20156 16
+|  -  |157317|ROUTE| FEC 288390         |   - |  -     |                   |   -   
+|  -  |157318|ROUTE| FEC 288371         |   - |2097143 |                 - |Mpush 720897
+|  -  |157319|ROUTE| FEC 288371         |   - |2097142 |                 - |Mpush 720896
+|  -  |157320|ROUTE| FEC 288398         |   - |2097135 |                 - |Mpush 48061
+|  -  |157321|ROUTE| FEC 288401         |   - |2097149 |                 - |Mpush 500000
+|  -  |157322|ROUTE| FEC 288389         |   - |2097145 |                 - |Mpush 333
+|  -  |157323|ROUTE| FEC 288391         |   - |2097132 |                 - |Mpush 524287
+|  -  |157324|ROUTE| FEC 288386         |   - |2097137 |                 - |Mpush 524305
+|  -  |157325|ROUTE| FEC 288387         |   - |2097144 |                 - |Mpush 1276
+|  -  |288360|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288361|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288362|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288363|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288364|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288365|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288366|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288367|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288368|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288369|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288370|ROUTE| Et1                |1006 |107524  | c4:ca:2b:45:a2:15 |Mpush 20066
+|  -  |288371|ROUTE| Et1                |1006 |107531  | c4:ca:2b:45:a2:15 |Mpush 20084
+|  -  |288372|ROUTE| Et1                |1006 |107529  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288373|ROUTE| Et5                |1010 |107536  | 3c:08:cd:8d:ba:dc |Mpush 20484
+|  -  |288374|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288375|ROUTE| Et5                |1010 |107518  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288376|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288377|ROUTE| Et1                |1006 |107523  | c4:ca:2b:45:a2:15 |Mpush 20072
+|  -  |288378|ROUTE| Et1                |1006 |107521  | c4:ca:2b:45:a2:15 |Mpush 20179
+|  -  |288379|ROUTE| Et5                |1010 |107539  | 3c:08:cd:8d:ba:dc |Mpush 20120
+|  -  |288380|ROUTE| Et1                |1006 |107525  | c4:ca:2b:45:a2:15 |Mpush 20053
+|  -  |288381|ROUTE| Et5                |1010 |107527  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288382|ROUTE| Et5                |1010 |107545  | 3c:08:cd:8d:ba:dc |Mpush 20128
+|  -  |288385|ROUTE| Et40               |1009 |107522  | 00:29:01:00:00:01 |   -   
+|  -  |288386|ROUTE| Et1                |1006 |107534  | c4:ca:2b:45:a2:15 |Mpush 21221
+|  -  |288387|ROUTE| Et1                |1006 |107528  | c4:ca:2b:45:a2:15 |Mpush 20120
+|  -  |288388|ROUTE| Et40               |1008 |107520  | 00:28:01:00:00:01 |   -   
+|  -  |288389|ROUTE| Et1                |1006 |107535  | c4:ca:2b:45:a2:15 |Mpush 20124
+|  -  |288390|ROUTE| Et5                |1010 |107555  | 3c:08:cd:8d:ba:dc |Mpush 21221
+|  -  |288391|ROUTE| Et1                |1006 |107538  | c4:ca:2b:45:a2:15 |Mpush 20217
+|  -  |288392|ROUTE| Et5                |1010 |107559  | 3c:08:cd:8d:ba:dc |Mpush 20124
+|  -  |288393|ROUTE| Et5                |1010 |107540  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288396|ROUTE| Et5                |1010 |107553  | 3c:08:cd:8d:ba:dc |Mpush 20066
+|  -  |288397|ROUTE| Et5                |1010 |107554  | 3c:08:cd:8d:ba:dc |Mpush 20072
+|  -  |288398|ROUTE| Et1                |1006 |107519  | c4:ca:2b:45:a2:15 |Mpush 20128
+|  -  |288401|ROUTE| Et1                |1006 |107533  | c4:ca:2b:45:a2:15 |Mpush 20214
+|  -  |288402|ROUTE| Et1                |1006 |107526  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288405|ROUTE| Et5                |1010 |107547  | 3c:08:cd:8d:ba:dc |Mpush 20217
+|  -  |288406|ROUTE| Et5                |1010 |107557  | 3c:08:cd:8d:ba:dc |Mpush 20179
+|  -  |524290|TRAP | CoppSystemIpBcast  |0    |  -     | BcastReceive      |   -   
+|  -  |524291|TRAP | CoppSystemIpUcast  |0    |  -     | Receive           |   -   
+|  -  |524293|TRAP | CoppSystemL3LpmOver|0    |  -     | SlowReceive       |   -   
+|  -  |524295|TRAP | CoppSystemL3DstMiss|0    |  -     | ArpTrap           |   -   
+|  -  |525301|TRAP | CoppSystemL3DstMiss|1006 |1006    | ArpTrap           |   -   
+|  -  |525303|TRAP | CoppSystemL3DstMiss|1008 |1008    | ArpTrap           |   -   
+|  -  |525304|TRAP | CoppSystemL3DstMiss|1009 |1009    | ArpTrap           |   -   
+|  -  |525305|TRAP | CoppSystemL3DstMiss|1010 |1010    | ArpTrap           |   -   
+

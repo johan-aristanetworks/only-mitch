@@ -1,0 +1,26 @@
+Tunnel RIB: system-colored-tunnel-rib
+ Endpoint         Color    Tunnel Type     Index(es)    Tunnel Preference    IGP Preference    IGP Metric   Metric Type
+---------------- -------- --------------- ------------ -------------------- ----------------- ------------- -----------
+ 10.0.0.53/32     100      SR-TE Policy    170          35                   3                 0            metric     
+ 10.0.0.53/32     101      SR-TE Policy    218          35                   3                 0            metric     
+ 10.0.0.66/32     100      SR-TE Policy    164          35                   3                 0            metric     
+ 10.0.0.66/32     101      SR-TE Policy    212          35                   3                 0            metric     
+ 10.0.0.72/32     100      SR-TE Policy    156          35                   3                 0            metric     
+ 10.0.0.72/32     101      SR-TE Policy    200          35                   3                 0            metric     
+ 10.0.0.84/32     100      SR-TE Policy    154          35                   3                 0            metric     
+ 10.0.0.84/32     101      SR-TE Policy    216          35                   3                 0            metric     
+ 10.0.0.120/32    100      SR-TE Policy    158          35                   3                 0            metric     
+ 10.0.0.120/32    101      SR-TE Policy    204          35                   3                 0            metric     
+ 10.0.0.124/32    100      SR-TE Policy    172          35                   3                 0            metric     
+ 10.0.0.124/32    101      SR-TE Policy    198          35                   3                 0            metric     
+ 10.0.0.128/32    100      SR-TE Policy    166          35                   3                 0            metric     
+ 10.0.0.128/32    101      SR-TE Policy    214          35                   3                 0            metric     
+ 10.0.0.179/32    100      SR-TE Policy    162          35                   3                 0            metric     
+ 10.0.0.179/32    101      SR-TE Policy    202          35                   3                 0            metric     
+ 10.0.0.214/32    100      SR-TE Policy    174          35                   3                 0            metric     
+ 10.0.0.214/32    101      SR-TE Policy    210          35                   3                 0            metric     
+ 10.0.0.217/32    100      SR-TE Policy    160          35                   3                 0            metric     
+ 10.0.0.217/32    101      SR-TE Policy    206          35                   3                 0            metric     
+ 10.0.0.221/32    100      SR-TE Policy    168          35                   3                 0            metric     
+ 10.0.0.221/32    101      SR-TE Policy    208          35                   3                 0            metric     
+

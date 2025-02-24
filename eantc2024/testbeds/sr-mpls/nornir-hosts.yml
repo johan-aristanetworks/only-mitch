@@ -1,13 +1,13 @@
 ---
-PE32-J2-171:
+# PE31-Q2C-31:
+#   groups: [SNAPSHOT]
+#   hostname: 192.168.20.31
+PE32-Q2C-32:
   groups: [SNAPSHOT]
-  hostname: 192.168.20.171
-PE32-J2-172:
+  hostname: 192.168.20.32
+# Harness3-JP-39:
+#   groups: [SNAPSHOT]
+#   hostname: 192.168.20.39
+Spine3-Q2A-30:
   groups: [SNAPSHOT]
-  hostname: 192.168.20.172
-Harness3-J-175:
-  groups: [SNAPSHOT]
-  hostname: 192.168.20.175
-Spine3-J-170:
-  groups: [SNAPSHOT]
-  hostname: 192.168.20.170
+  hostname: 192.168.20.30

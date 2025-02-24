@@ -1,0 +1,76 @@
+
+VRF: RED
+Source Codes:
+       C - connected, S - static, K - kernel,
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ C        10.0.0.30/32
+           directly connected, Loopback5001
+ B I      50.10.32.0/24 [200/0]
+           via 10.0.0.32/32, IS-IS SR tunnel index 9, label 378528
+              via TI-LFA tunnel index 8, label imp-null(3)
+                 via 20.30.32.32, Ethernet2, label imp-null(3)
+                 backup via 20.30.217.217, Ethernet4, label 20175 20032
+ B I      50.10.53.0/24 [200/0]
+           via 10.0.0.53/32, IS-IS SR tunnel index 5, label 970000
+              via TI-LFA tunnel index 7, label imp-null(3)
+                 via 20.30.53.53, Ethernet13, label exp-null-v4(0)
+                 backup via 20.30.179.179, Ethernet40, label 20175 20053
+ B I      50.10.66.0/24 [200/0]
+           via 10.0.0.66/32, IS-IS SR tunnel index 17, label 62000
+              via TI-LFA tunnel index 2, label imp-null(3)
+                 via 20.30.66.66, Ethernet31, label imp-null(3)
+                 backup via 20.30.214.214, Ethernet5, label 20175 20066
+ B I      50.10.72.0/24 [200/0]
+           via 10.0.0.72/32, IS-IS SR tunnel index 2, label 62002
+              via TI-LFA tunnel index 1, label imp-null(3)
+                 via 20.30.72.72, Ethernet9, label imp-null(3)
+                 backup via 20.30.128.128, Ethernet19, label 20175 20072
+ B I      50.10.84.0/24 [200/0]
+           via 10.0.0.84/32, IS-IS SR tunnel index 1, label 720896
+              via TI-LFA tunnel index 0, label 20084
+                 via 20.30.84.84, Ethernet12, label imp-null(3)
+                 backup via 20.30.128.128, Ethernet19, label 20175
+ B I      50.10.120.0/24 [200/0]
+           via 10.0.0.120/32, IS-IS SR tunnel index 7, label 1277
+              via TI-LFA tunnel index 16, label imp-null(3)
+                 via 20.30.120.120, Ethernet3, label imp-null(3)
+                 backup via 20.30.214.214, Ethernet5, label 20175 20120
+ B I      50.10.179.0/24 [200/0]
+           via 10.0.0.179/32, IS-IS SR tunnel index 6, label 16
+              via TI-LFA tunnel index 13, label imp-null(3)
+                 via 20.30.179.179, Ethernet40, label imp-null(3)
+                 backup via 20.30.84.84, Ethernet12, label 20175 20179
+ B I      50.10.214.0/24 [200/0]
+           via 10.0.0.214/32, IS-IS SR tunnel index 10, label 500000
+              via TI-LFA tunnel index 6, label 20214
+                 via 20.30.214.214, Ethernet5, label imp-null(3)
+                 backup via 20.30.32.32, Ethernet2, label 20175
+ B I      50.10.217.0/24 [200/0]
+           via 10.0.0.217/32, IS-IS SR tunnel index 16, label 524287
+              via TI-LFA tunnel index 3, label 20217
+                 via 20.30.217.217, Ethernet4, label imp-null(3)
+                 backup via 20.30.32.32, Ethernet2, label 20175
+ B I      50.10.221.0/24 [200/0]
+           via 10.0.0.221/32, IS-IS SR tunnel index 13, label 524305
+              via TI-LFA tunnel index 20, label imp-null(3)
+                 via 20.30.221.221, Ethernet15, label imp-null(3)
+                 backup via 20.30.179.179, Ethernet40, label 20175 21221
+ B I      51.10.120.0/24 [200/0]
+           via 10.0.0.120/32, IS-IS SR tunnel index 7, label 1277
+              via TI-LFA tunnel index 16, label imp-null(3)
+                 via 20.30.120.120, Ethernet3, label imp-null(3)
+                 backup via 20.30.214.214, Ethernet5, label 20175 20120
+

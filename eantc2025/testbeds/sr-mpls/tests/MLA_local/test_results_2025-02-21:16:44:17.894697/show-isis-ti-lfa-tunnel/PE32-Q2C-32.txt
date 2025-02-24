@@ -1,0 +1,80 @@
+Tunnel Index 0
+   via 20.30.32.30, 'Ethernet1'
+      label stack 3
+   backup via 20.32.175.175, 'Ethernet5'
+      label stack 3
+Tunnel Index 1
+   via 20.30.32.30, 'Ethernet1'
+      label stack 3
+   backup via 20.32.175.175, 'Ethernet5'
+      label stack 20030
+Tunnel Index 2
+   via 20.32.175.175, 'Ethernet5'
+      label stack 3
+   backup via 20.30.32.30, 'Ethernet1'
+      label stack 21308 21304
+Tunnel Index 3
+   via 20.32.175.175, 'Ethernet5'
+      label stack 3
+   backup via 20.30.32.30, 'Ethernet1'
+      label stack 21285
+Tunnel Index 4
+   via 20.32.175.175, 'Ethernet5'
+      label stack 3
+   backup via 20.30.32.30, 'Ethernet1'
+      label stack 3
+Tunnel Index 5
+   via 20.32.175.175, 'Ethernet5'
+      label stack 3
+   backup via 20.30.32.30, 'Ethernet1'
+      label stack 20072 20175
+Tunnel Index 6
+   via 20.32.175.175, 'Ethernet5'
+      label stack 20159
+   backup via 20.30.32.30, 'Ethernet1'
+      label stack 3
+Tunnel Index 7
+   via fe80::3e08:cdff:fe8d:badc, 'Ethernet5'
+      label stack 3
+   backup via fe80::c6ca:2bff:fe45:a215, 'Ethernet1'
+      label stack 3
+Tunnel Index 8
+   via fe80::3e08:cdff:fe8d:badc, 'Ethernet5'
+      label stack 3
+   backup via fe80::c6ca:2bff:fe45:a215, 'Ethernet1'
+      label stack 21582 21704
+Tunnel Index 9
+   via 20.30.32.30, 'Ethernet1'
+      label stack 21303
+   backup via 20.32.175.175, 'Ethernet5'
+      label stack 3
+Tunnel Index 10
+   via 20.30.32.30, 'Ethernet1'
+      label stack 3
+   backup via 20.32.175.175, 'Ethernet5'
+      label stack 20158
+Tunnel Index 11
+   via fe80::c6ca:2bff:fe45:a215, 'Ethernet1'
+      label stack 3
+   backup via fe80::3e08:cdff:fe8d:badc, 'Ethernet5'
+      label stack 21685
+Tunnel Index 12
+   via fe80::c6ca:2bff:fe45:a215, 'Ethernet1'
+      label stack 21703
+   backup via fe80::3e08:cdff:fe8d:badc, 'Ethernet5'
+      label stack 3
+Tunnel Index 13
+   via fe80::c6ca:2bff:fe45:a215, 'Ethernet1'
+      label stack 3
+   backup via fe80::3e08:cdff:fe8d:badc, 'Ethernet5'
+      label stack 3
+Tunnel Index 14
+   via fe80::c6ca:2bff:fe45:a215, 'Ethernet1'
+      label stack 3
+   backup via fe80::3e08:cdff:fe8d:badc, 'Ethernet5'
+      label stack 21685 20559
+Tunnel Index 15
+   via fe80::c6ca:2bff:fe45:a215, 'Ethernet1'
+      label stack 3
+   backup via fe80::3e08:cdff:fe8d:badc, 'Ethernet5'
+      label stack 20558

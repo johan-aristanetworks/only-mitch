@@ -1,0 +1,1 @@
+! OSPF (Instance Id: 1) Segment Routing has been administratively shutdown

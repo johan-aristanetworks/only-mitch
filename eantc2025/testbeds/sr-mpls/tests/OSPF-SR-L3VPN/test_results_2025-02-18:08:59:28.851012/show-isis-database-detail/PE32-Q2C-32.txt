@@ -1,0 +1,7 @@
+! IS-IS (IGP) is shutdown
+Legend:
+H - hostname conflict
+U - node unreachable
+
+IS-IS Instance: IGP VRF: default
+

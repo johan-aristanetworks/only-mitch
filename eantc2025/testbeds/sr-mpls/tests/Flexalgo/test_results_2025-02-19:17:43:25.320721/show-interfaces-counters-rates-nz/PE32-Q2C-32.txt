@@ -1,0 +1,7 @@
+Port      Name                Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et1       Arista_Spine30_Eth2  0:01    346.6   4.2%      451    399.9   4.8%
+Et40                           0:01    479.9   5.8%      624    346.6   4.2%
+
+Port      Out Kpps
+Et1            499
+Et40           451

@@ -1,0 +1,79 @@
+BGP routing table information for VRF default
+Router identifier 10.0.0.30, local AS number 64512
+BGP routing table entry for IPv6 prefix 2600:50:10:32::/64, Route Distinguisher: 10.0.0.32:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.32 from 10.0.0.32 (10.0.0.32)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 378529
+BGP routing table entry for IPv6 prefix 2600:50:10:53::/64, Route Distinguisher: 53:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.53 from 10.0.0.53 (10.0.0.53)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 970001
+BGP routing table entry for IPv6 prefix 2600:50:10:66::/64, Route Distinguisher: 66:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.66 from 10.0.0.66 (10.0.0.66)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 62001
+BGP routing table entry for IPv6 prefix 2600:50:10:72::/64, Route Distinguisher: 72:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.72 from 10.0.0.72 (10.0.0.72)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 62003
+BGP routing table entry for IPv6 prefix 2600:50:10:84::/64, Route Distinguisher: 84:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.84 from 10.0.0.84 (10.0.0.84)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001
+      Remote MPLS label: 720897
+BGP routing table entry for IPv6 prefix 2600:50:10:120::/64, Route Distinguisher: 120:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.120 from 10.0.0.120 (10.0.0.120)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 1276
+BGP routing table entry for IPv6 prefix 2600:50:10:179::/64, Route Distinguisher: 179:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.179 from 10.0.0.179 (10.0.0.179)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 16
+BGP routing table entry for IPv6 prefix 2600:50:10:214::/64, Route Distinguisher: 214:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.214 from 10.0.0.214 (10.0.0.214)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 500000
+BGP routing table entry for IPv6 prefix 2600:50:10:217::/64, Route Distinguisher: 217:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.217 from 10.0.0.217 (10.0.0.217)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 524287
+BGP routing table entry for IPv6 prefix 2600:50:10:221::/64, Route Distinguisher: 210:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.221 from 10.0.0.221 (10.0.0.221)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 524305
+BGP routing table entry for IPv6 prefix 2600:51:10:120::/64, Route Distinguisher: 120:5001
+ Paths: 1 available
+  Local (Received from a RR-client)
+    ::ffff:10.0.0.120 from 10.0.0.120 (10.0.0.120)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:5001:5001 Color:CO(00):101
+      Remote MPLS label: 1276

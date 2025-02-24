@@ -1,0 +1,15 @@
+ 
+Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
+IGP       default  Arista-PE32-Q2C-32 L2   Ethernet2          P2P               UP    24          44                  
+IGP       default  Arrcus-53        L2   Ethernet13         P2P               UP    29          00                  
+IGP       default  Ciena-8140-66    L2   Ethernet31         P2P               UP    21          02                  
+IGP       default  Ciena-5134-72    L2   Ethernet9          P2P               UP    30          02                  
+IGP       default  Ericsson_84_R6678 L2   Ethernet12         P2P               UP    23          02                  
+IGP       default  H3C_M1A_120      L2   Ethernet3          P2P               UP    27          01                  
+IGP       default  0000.0000.0124   L2   Ethernet17         P2P               UP    27          09                  
+IGP       default  0000.0000.0128   L2   Ethernet19         P2P               UP    30          09                  
+IGP       default  Juniper-156-PTX10002-36QDD L2   Ethernet11         P2P               UP    24          01                  
+IGP       default  Juniper-179-ACX7024 L2   Ethernet40         P2P               UP    26          01                  
+IGP       default  Nokia-SXR-214    L2   Ethernet5          P2P               UP    26          00                  
+IGP       default  Nokia-SR1-217    L2   Ethernet4          P2P               UP    21          00                  
+IGP       default  221              L2   Ethernet15         P2P               UP    81          00                  

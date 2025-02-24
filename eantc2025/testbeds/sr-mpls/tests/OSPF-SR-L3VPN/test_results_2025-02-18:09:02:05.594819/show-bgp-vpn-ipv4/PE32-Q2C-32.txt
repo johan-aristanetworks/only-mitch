@@ -1,0 +1,39 @@
+BGP routing table information for VRF default
+Router identifier 10.0.0.32, local AS number 64512
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+          RD: 184:5001 IPv4 prefix 20.184.184.0/24
+                                 10.0.0.184            -       0       0       i Or-ID: 100.0.0.184 C-LST: 10.0.0.175 
+ * >      RD: 10.0.0.31:5001 IPv4 prefix 50.10.31.0/24
+                                 10.0.0.31             -       100     0       i Or-ID: 10.0.0.31 C-LST: 10.0.0.175 
+ * >      RD: 10.0.0.32:5001 IPv4 prefix 50.10.32.0/24
+                                 -                     -       -       0       i
+ * >      RD: 66:5001 IPv4 prefix 50.10.66.0/24
+                                 10.0.0.66             -       100     0       ? Or-ID: 10.0.0.66 C-LST: 10.0.0.175 
+ * >      RD: 72:5001 IPv4 prefix 50.10.72.0/24
+                                 10.0.0.72             -       100     0       ? Or-ID: 10.0.0.72 C-LST: 10.0.0.175 
+ * >      RD: 84:5001 IPv4 prefix 50.10.84.0/24
+                                 10.0.0.84             0       100     0       ? Or-ID: 10.0.0.84 C-LST: 10.0.0.175 
+ * >      RD: 120:5001 IPv4 prefix 50.10.120.0/24
+                                 10.0.0.120            0       100     0       ? Or-ID: 10.0.0.120 C-LST: 10.0.0.175 
+ * >      RD: 124:5001 IPv4 prefix 50.10.124.0/24
+                                 10.0.0.124            0       100     0       ? Or-ID: 10.0.0.124 C-LST: 10.0.0.175 
+ * >      RD: 128:5001 IPv4 prefix 50.10.128.0/24
+                                 10.0.0.128            0       100     0       ? Or-ID: 10.0.0.128 C-LST: 10.0.0.175 
+ * >      RD: 131:5001 IPv4 prefix 50.10.131.0/24
+                                 10.0.0.131            -       100     0       i Or-ID: 10.0.0.131 C-LST: 10.0.0.175 
+ * >      RD: 179:5001 IPv4 prefix 50.10.179.0/24
+                                 10.0.0.179            -       100     0       i Or-ID: 10.0.0.179 C-LST: 10.0.0.175 
+          RD: 214:5001 IPv4 prefix 50.10.214.0/24
+                                 10.0.0.214            -       100     0       i Or-ID: 10.0.0.214 C-LST: 10.0.0.175 
+ * >      RD: 217:5001 IPv4 prefix 50.10.217.0/24
+                                 10.0.0.217            -       100     0       i Or-ID: 10.0.0.217 C-LST: 10.0.0.175 
+ * >      RD: 210:5001 IPv4 prefix 50.10.221.0/24
+                                 10.0.0.221            -       100     0       i Or-ID: 10.0.0.221 C-LST: 10.0.0.175 
+ * >      RD: 120:5001 IPv4 prefix 51.10.120.0/24
+                                 10.0.0.120            0       100     0       ? Or-ID: 10.0.0.120 C-LST: 10.0.0.175 

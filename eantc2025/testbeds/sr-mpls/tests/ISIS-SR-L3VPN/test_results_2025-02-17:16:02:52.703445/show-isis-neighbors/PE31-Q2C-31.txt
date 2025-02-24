@@ -1,0 +1,4 @@
+ 
+Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
+IGP       default  Arista-Spine3-Q2A-30 L2   Ethernet1          P2P               UP    29          35                  
+IGP       default  Juniper-175-ACX7100-48L L2   Ethernet5          P2P               UP    25          01                  

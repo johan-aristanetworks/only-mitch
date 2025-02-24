@@ -1,0 +1,4 @@
+! IS-IS (IGP) is shutdown
+
+IS-IS Instance: IGP VRF: default
+

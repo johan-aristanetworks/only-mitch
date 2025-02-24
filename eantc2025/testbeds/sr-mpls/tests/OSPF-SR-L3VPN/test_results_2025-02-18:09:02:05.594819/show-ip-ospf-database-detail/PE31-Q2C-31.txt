@@ -1,0 +1,1580 @@
+
+            OSPF Router with ID(10.0.0.31) (Instance ID 1) (VRF default)
+
+
+                 Router Link States (Area 0.0.0.0)
+
+  LS Age: 1513
+  Options: (E)
+  LS Type: Router Links
+  Link State ID: 192.168.20.128
+  Advertising Router: 192.168.20.128
+  LS Seq Number: 0x80000006
+  Checksum: 0xd80c
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.128.175.128
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.128.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.128
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+  LS Age: 1634
+  Options: ((null))
+  LS Type: Router Links
+  Link State ID: 100.0.0.184
+  Advertising Router: 100.0.0.184
+  LS Seq Number: 0x80000003
+  Checksum: 0x289
+  Length: 48
+  Number of Links: 2
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.175.184.184
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.184.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+  LS Age: 133
+  Options: (E O)
+  LS Type: Router Links
+  Link State ID: 192.168.20.120
+  Advertising Router: 192.168.20.120
+  LS Seq Number: 0x8000000a
+  Checksum: 0xce01
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.120.175.120
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.120
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.120.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+  LS Age: 175
+  Options: ((null))
+  LS Type: Router Links
+  Link State ID: 10.0.0.184
+  Advertising Router: 10.0.0.184
+  LS Seq Number: 0x8000000b
+  Checksum: 0x95c
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.175.184.184
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.184.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.184
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+  LS Age: 318
+  Options: (E DC)
+  LS Type: Router Links
+  Link State ID: 10.0.0.66
+  Advertising Router: 10.0.0.66
+  LS Seq Number: 0x80000005
+  Checksum: 0x2cd9
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.66
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.66.175.66
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.66.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+  LS Age: 1500
+  Options: (E)
+  LS Type: Router Links
+  Link State ID: 10.0.0.124
+  Advertising Router: 10.0.0.124
+  LS Seq Number: 0x80000006
+  Checksum: 0x22c1
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.124.175.124
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.124.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.124
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+  LS Age: 368
+  Options: (E DC)
+  LS Type: Router Links
+  Link State ID: 10.0.0.32
+  Advertising Router: 10.0.0.32
+  LS Seq Number: 0x80000006
+  Checksum: 0x8c9
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.32
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.32.175.32
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.32.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+  LS Age: 365
+  Options: (E DC)
+  LS Type: Router Links
+  Link State ID: 10.0.0.72
+  Advertising Router: 10.0.0.72
+  LS Seq Number: 0x80000005
+  Checksum: 0xf5eb
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.72
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.72.175.72
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.72.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+  LS Age: 196
+  Options: (E DC)
+  LS Type: Router Links
+  Link State ID: 10.0.0.84
+  Advertising Router: 10.0.0.84
+  LS Seq Number: 0x80000006
+  Checksum: 0x8dd1
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.84
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.84.175.84
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.84.175.84
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+  LS Age: 1819
+  Options: (E)
+  LS Type: Router Links
+  Link State ID: 10.0.0.214
+  Advertising Router: 10.0.0.214
+  LS Seq Number: 0x80000004
+  Checksum: 0x4433
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.214
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.175.214.214
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 40
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.214.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 40
+
+  LS Age: 476
+  Options: (E)
+  LS Type: Router Links
+  Link State ID: 10.0.0.221
+  Advertising Router: 10.0.0.221
+  LS Seq Number: 0x80000003
+  Checksum: 0xeba0
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.221
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.175.221.221
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.221.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+  LS Age: 577
+  Options: (E)
+  LS Type: Router Links
+  Link State ID: 10.0.0.217
+  Advertising Router: 10.0.0.217
+  LS Seq Number: 0x80000006
+  Checksum: 0xb2ec
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.217
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.175.217.217
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.217.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+  LS Age: 495
+  Options: (E DC)
+  LS Type: Router Links
+  Link State ID: 10.0.0.179
+  Advertising Router: 10.0.0.179
+  LS Seq Number: 0x80000004
+  Checksum: 0x1a60
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.175.179.179
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.179.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.179
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+  LS Age: 2023
+  Options: (E DC)
+  LS Type: Router Links
+  Link State ID: 10.0.0.131
+  Advertising Router: 10.0.0.131
+  LS Seq Number: 0x80000002
+  Checksum: 0xa93
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.131.175.131
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.131.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.131
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+  LS Age: 174
+  Options: (E DC)
+  LS Type: Router Links
+  Link State ID: 10.0.0.175
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000029
+  Checksum: 0x293a
+  Length: 384
+  Number of Links: 30
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.131
+     (Link Data)  20.131.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.131.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.217
+     (Link Data)  20.175.217.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.217.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.221
+     (Link Data)  20.175.221.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.221.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.84
+     (Link Data)  20.84.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.84.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 192.168.20.128
+     (Link Data)  20.128.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.128.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.184
+     (Link Data)  20.175.184.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.184.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.124
+     (Link Data)  20.124.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.124.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.214
+     (Link Data)  20.175.214.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.214.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.32
+     (Link Data)  20.32.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.32.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.72
+     (Link Data)  20.72.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.72.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.66
+     (Link Data)  20.66.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.66.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.179
+     (Link Data)  20.175.179.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.175.179.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.31
+     (Link Data)  20.31.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.31.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 192.168.20.120
+     (Link Data)  20.120.175.175
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.120.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.53.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 1
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.175
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 0
+
+  LS Age: 436
+  Options: (E DC)
+  LS Type: Router Links
+  Link State ID: 10.0.0.31
+  Advertising Router: 10.0.0.31
+  LS Seq Number: 0x80000006
+  Checksum: 0xbb1c
+  Length: 60
+  Number of Links: 3
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 10.0.0.31
+     (Link Data) Network Mask: 255.255.255.255
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Point-to-point Network
+     (Link ID) Neighboring Router ID: 10.0.0.175
+     (Link Data)  20.31.175.31
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+    Link connected to: a Stub Network
+     (Link ID) Network/subnet number: 20.31.175.0
+     (Link Data) Network Mask: 255.255.255.0
+      Number of TOS metrics: 0
+       TOS 0 Metrics: 10
+
+
+                 Opaque Type 10 Link States (Area 0.0.0.0)
+
+  LS Age: 436
+  Options: (DC O)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.0
+  Advertising Router: 10.0.0.31
+  LS Seq Number: 0x80000002
+  Checksum: 0x32bb
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.31/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 31
+
+  LS Age: 1358
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.1
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000002
+  Checksum: 0xa8d1
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.221
+    Link Data: 20.175.221.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 38
+
+  LS Age: 225
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.255.216.246
+  Advertising Router: 10.0.0.72
+  LS Seq Number: 0x80000002
+  Checksum: 0x51a
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.72.175.72
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 22000
+
+  LS Age: 648
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.10
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000002
+  Checksum: 0x474f
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.72
+    Link Data: 20.72.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 44
+
+  LS Age: 436
+  Options: (DC O)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.0
+  Advertising Router: 10.0.0.31
+  LS Seq Number: 0x80000002
+  Checksum: 0xb9cb
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.31.175.31
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 411296
+
+  LS Age: 1179
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.4
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000002
+  Checksum: 0x3cb6
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.31
+    Link Data: 20.31.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 40
+
+  LS Age: 500
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.24
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000001
+  Checksum: 0x911f
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.179
+    Link Data: 20.175.179.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 46
+
+  LS Age: 368
+  Options: (DC O)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.0
+  Advertising Router: 10.0.0.32
+  LS Seq Number: 0x80000002
+  Checksum: 0xd5ac
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.32.175.32
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 411296
+
+  LS Age: 1001
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.6
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000002
+  Checksum: 0x6e0b
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.217
+    Link Data: 20.175.217.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 42
+
+  LS Age: 1817
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.18
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000001
+  Checksum: 0xa0ca
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.214
+    Link Data: 20.175.214.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 51
+
+  LS Age: 1500
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.22
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000001
+  Checksum: 0xf425
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.124
+    Link Data: 20.124.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 53
+
+  LS Age: 493
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.3
+  Advertising Router: 10.0.0.217
+  LS Seq Number: 0x80000002
+  Checksum: 0xb8df
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.175.217.217
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 524285
+
+  LS Age: 286
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.13
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000003
+  Checksum: 0x2253
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.84
+    Link Data: 20.84.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 49
+
+  LS Age: 824
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.9
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000002
+  Checksum: 0x45a5
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.32
+    Link Data: 20.32.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 41
+
+  LS Age: 1831
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.17
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000001
+  Checksum: 0xc6f2
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 192.168.20.120
+    Link Data: 20.120.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 47
+
+  LS Age: 1514
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.1
+  Advertising Router: 192.168.20.128
+  LS Seq Number: 0x80000001
+  Checksum: 0x5e5f
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.128.175.128
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 48063
+
+  LS Age: 1501
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.1
+  Advertising Router: 10.0.0.124
+  LS Seq Number: 0x80000001
+  Checksum: 0x365
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.124.175.124
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 335
+
+  LS Age: 476
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.1
+  Advertising Router: 10.0.0.221
+  LS Seq Number: 0x80000003
+  Checksum: 0x193b
+  Length: 96
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.175.221.221
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 524298
+    Adj-SID Sub-TLV
+      Flags: [B, V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 524299
+    Unsupported sub-TLV: Type 10, Length 24
+    Unsupported sub-TLV: Type 8, Length 4
+
+  LS Age: 2023
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.1
+  Advertising Router: 10.0.0.131
+  LS Seq Number: 0x80000001
+  Checksum: 0xf679
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.131.175.131
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 19
+
+  LS Age: 496
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.1
+  Advertising Router: 10.0.0.179
+  LS Seq Number: 0x80000003
+  Checksum: 0x2dd
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.175.179.179
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 17
+
+  LS Age: 184
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.25
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000001
+  Checksum: 0x5755
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.184
+    Link Data: 20.175.184.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 39
+
+  LS Age: 1513
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.21
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000001
+  Checksum: 0x217f
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 192.168.20.128
+    Link Data: 20.128.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 52
+
+  LS Age: 100
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.15
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000002
+  Checksum: 0xb460
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.131
+    Link Data: 20.131.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 50
+
+  LS Age: 472
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.0.0.11
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000002
+  Checksum: 0xa5fa
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.66
+    Link Data: 20.66.175.175
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 45
+
+  LS Age: 388
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 8.255.216.243
+  Advertising Router: 10.0.0.66
+  LS Seq Number: 0x80000003
+  Checksum: 0x78ba
+  Length: 48
+  Segment Routing Extended Link TLV
+    Link Type: 1 (Point-to-point)
+    Reserved: 0
+    Link Id: 10.0.0.175
+    Link Data: 20.66.175.66
+    Adj-SID Sub-TLV
+      Flags: [V, L]
+      Reserved: 0
+      Multi-Topology ID: 0
+      SID: 22000
+
+  LS Age: 555
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 192.168.20.128
+  LS Seq Number: 0x80000004
+  Checksum: 0xab0c
+  Length: 52
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+  Unsupported TLV: Type 12, Length 2
+
+  LS Age: 251
+  Options: (E O)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 192.168.20.120
+  LS Seq Number: 0x80000002
+  Checksum: 0x1721
+  Length: 60
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 16000, Size: 8001
+  Unsupported TLV: Type 12, Length 2
+  Unsupported TLV: Type 1, Length 4
+
+  LS Age: 428
+  Options: (DC O)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.32
+  LS Seq Number: 0x80000002
+  Checksum: 0xaaa5
+  Length: 44
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+
+  LS Age: 208
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.66
+  LS Seq Number: 0x80000002
+  Checksum: 0x1953
+  Length: 44
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+
+  LS Age: 347
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.124
+  LS Seq Number: 0x80000004
+  Checksum: 0xa51f
+  Length: 52
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 2000, Size: 2001
+  Unsupported TLV: Type 12, Length 2
+
+  LS Age: 985
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.72
+  LS Seq Number: 0x80000002
+  Checksum: 0xf471
+  Length: 44
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+
+  LS Age: 106
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.84
+  LS Seq Number: 0x80000002
+  Checksum: 0x8065
+  Length: 60
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+  Unsupported TLV: Type 12, Length 2
+  Unsupported TLV: Type 1, Length 4
+
+  LS Age: 1812
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.214
+  LS Seq Number: 0x80000002
+  Checksum: 0x290e
+  Length: 48
+  Segment Routing Router Information TLV
+  Unsupported TLV: Type 7, Length 13
+  Unsupported TLV: Type 1, Length 4
+
+  LS Age: 476
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.221
+  LS Seq Number: 0x80000003
+  Checksum: 0xa510
+  Length: 68
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 720000, Size: 2000
+  Unsupported TLV: Type 12, Length 2
+  Unsupported TLV: Type 14, Length 12
+
+  LS Age: 322
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.217
+  LS Seq Number: 0x80000002
+  Checksum: 0x820c
+  Length: 80
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+  Unsupported TLV: Type 12, Length 4
+  Unsupported TLV: Type 7, Length 13
+  Unsupported TLV: Type 1, Length 4
+
+  LS Age: 501
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.179
+  LS Seq Number: 0x80000003
+  Checksum: 0xd821
+  Length: 44
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+
+  LS Age: 1085
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.131
+  LS Seq Number: 0x80000002
+  Checksum: 0xfb2f
+  Length: 44
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+
+  LS Age: 1557
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000002
+  Checksum: 0xf20c
+  Length: 44
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+
+  LS Age: 436
+  Options: (DC O)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 4.0.0.0
+  Advertising Router: 10.0.0.31
+  LS Seq Number: 0x80000002
+  Checksum: 0xb0a0
+  Length: 44
+  Segment Routing Router Information TLV
+    Supported Algorithm: Shortest Path First
+    Label Range
+      SRGB Base: 20000, Size: 2000
+
+  LS Age: 476
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 1.0.0.1
+  Advertising Router: 10.0.0.221
+  LS Seq Number: 0x80000002
+  Checksum: 0xc5f3
+  Length: 156
+   Link Type: Point-to-point
+   Link Id: 10.0.0.175
+   Interface Address: 20.175.221.221
+   Neighbor Address: 20.175.221.175
+   TE default metric: 10
+   Maximum link BW: 0.00 bps
+   Maximum reservable link BW: 0.00 bps
+   Administrative group (Color): 0x0
+   Unreserved BW:
+    TE class 0: 0.00 bps	    TE class 1: 0.00 bps	    TE class 2: 0.00 bps
+    TE class 3: 0.00 bps	    TE class 4: 0.00 bps	    TE class 5: 0.00 bps
+    TE class 6: 0.00 bps	    TE class 7: 0.00 bps
+   Unsupported sub-TLV: Type: 11 Length: 8
+   Unsupported sub-TLV: Type: 14 Length: 4
+   Unsupported sub-TLV: Type: 0 Length: 0
+   Unsupported sub-TLV: Type: 0 Length: 0
+   Unsupported sub-TLV: Type: 0 Length: 0
+
+  LS Age: 496
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 1.0.0.0
+  Advertising Router: 10.0.0.221
+  LS Seq Number: 0x80000002
+  Checksum: 0x7906
+  Length: 28
+   TE router ID: 10.0.0.221
+
+  LS Age: 350
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 1.0.0.1
+  Advertising Router: 10.0.0.217
+  LS Seq Number: 0x80000003
+  Checksum: 0x5d28
+  Length: 28
+   TE router ID: 10.0.0.217
+
+  LS Age: 2280
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.1
+  Advertising Router: 10.0.0.175
+  LS Seq Number: 0x80000001
+  Checksum: 0x377
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.175/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 175
+
+  LS Age: 253
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.2
+  Advertising Router: 10.0.0.217
+  LS Seq Number: 0x80000002
+  Checksum: 0x7841
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.217/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  [NP]
+      MT-ID: 0, SID: 217
+
+  LS Age: 521
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.0
+  Advertising Router: 192.168.20.128
+  LS Seq Number: 0x80000002
+  Checksum: 0x6a4a
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.128/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 128
+
+  LS Age: 251
+  Options: (E O)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.0
+  Advertising Router: 192.168.20.120
+  LS Seq Number: 0x80000002
+  Checksum: 0x95f6
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.120/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 120
+
+  LS Age: 428
+  Options: (DC O)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.0
+  Advertising Router: 10.0.0.32
+  LS Seq Number: 0x80000002
+  Checksum: 0x5496
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.32/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 32
+
+  LS Age: 2168
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.0
+  Advertising Router: 10.0.0.66
+  LS Seq Number: 0x80000001
+  Checksum: 0x843f
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.66/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 66
+
+  LS Age: 197
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.0
+  Advertising Router: 10.0.0.124
+  LS Seq Number: 0x80000002
+  Checksum: 0xe40f
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.124/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  [NP]
+      MT-ID: 0, SID: 124
+
+  LS Age: 905
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.0
+  Advertising Router: 10.0.0.72
+  LS Seq Number: 0x80000002
+  Checksum: 0x4f61
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.72/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 72
+
+  LS Age: 476
+  Options: (E)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.0
+  Advertising Router: 10.0.0.221
+  LS Seq Number: 0x80000005
+  Checksum: 0xfa26
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.221/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 1221
+
+  LS Age: 201
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.1
+  Advertising Router: 10.0.0.84
+  LS Seq Number: 0x80000002
+  Checksum: 0xa3a7
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.84/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  [NP]
+      MT-ID: 0, SID: 84
+
+  LS Age: 501
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.1
+  Advertising Router: 10.0.0.179
+  LS Seq Number: 0x80000003
+  Checksum: 0x87e4
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.179/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 179
+
+  LS Age: 398
+  Options: (E DC)
+  LS Type: Opaque Type 10 Links
+  Link State ID: 7.0.0.1
+  Advertising Router: 10.0.0.131
+  LS Seq Number: 0x80000002
+  Checksum: 0x23da
+  Length: 44
+  Segment Routing Extended Prefix TLV
+    Route Type: Intra-Area, Prefix: 10.0.0.131/32, AF: IPv4 unicast
+    Flags:  [N]
+    Prefix-SID Sub-TLV
+      Algorithm: Shortest Path First
+      Flags:  []
+      MT-ID: 0, SID: 131
+

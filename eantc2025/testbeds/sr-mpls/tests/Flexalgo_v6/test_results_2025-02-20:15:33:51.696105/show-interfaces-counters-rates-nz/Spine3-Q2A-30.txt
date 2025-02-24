@@ -1,0 +1,16 @@
+Port      Name                 Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et3       H3C_120               0:01    800.0   9.6%      999    800.0   9.6%
+Et4       Nokia                 0:01    800.0   9.6%      999    800.0   9.6%
+Et9       Ciena-5134-72 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et11      Juniper-156 port 590  0:01    800.0   9.6%      999    768.0   9.3%
+Et13      Arrcus-53 port swp0   0:01    800.0   9.6%      999    768.0   9.3%
+Et31      Ciena-8140-66 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et35      Juniper-131-JCNR 42   0:01      0.0   0.0%        0      0.0   0.0%
+Et40      Juniper-179-ACX7024   0:01    800.0   9.6%      999    768.0   9.3%
+
+Port      Out Kpps
+Et3            999
+Et4            999
+Et11           999
+Et13           999
+Et40           999

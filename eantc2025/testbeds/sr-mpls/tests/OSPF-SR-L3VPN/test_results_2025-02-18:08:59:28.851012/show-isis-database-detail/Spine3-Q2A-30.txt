@@ -1,0 +1,27 @@
+Legend:
+H - hostname conflict
+U - node unreachable
+
+IS-IS Instance: IGP VRF: default
+  IS-IS Level 2 Link State Database
+    LSPID                   Seq Num  Cksum  Life Length IS  Received LSPID        Flags
+    Arista-Spine3-Q2A-30.00-00       283   5427   852    128 L2  0000.0000.0030.00-00  <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 552 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arista-Spine3-Q2A-30
+      Area addresses: 49.0001
+      Topology: 2 (IPv6)
+      Topology: 0 (IPv4)
+      Interface address: 10.0.0.30
+      Reachability         : 10.0.0.30/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 30 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.30 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+

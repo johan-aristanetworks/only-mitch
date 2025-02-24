@@ -1,0 +1,24 @@
+Port      Name                 Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et2       Arista-PE32-Q2C-32 E  0:01    400.0   4.8%      499    346.7   4.2%
+Et3       H3C_120               0:01     50.0   0.6%       62    361.1   4.3%
+Et4       Nokia                 0:01      0.0   0.0%        0    411.1   4.9%
+Et9       Ciena-5134-72 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et11      Juniper-156 port 590  0:01    400.0   4.8%      500    346.7   4.2%
+Et13      Arrcus-53 port swp0   0:01    400.0   4.8%      499    348.7   4.2%
+Et15      Ribbon-221            0:01    400.0   4.8%      499    346.7   4.2%
+Et17      Huawei_124_NetEngine  0:01    738.9  88.7%      923    300.0  36.0%
+Et19      Huawei_128_NetEngine  0:01    388.9   4.7%      486    288.0   3.5%
+Et31      Ciena-8140-66 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et35      Juniper-131-JCNR 42   0:01      0.0   0.0%        0      0.0   0.0%
+Et40      Juniper-179-ACX7024   0:01    400.0   4.8%      500    346.7   4.2%
+
+Port      Out Kpps
+Et2            451
+Et3            451
+Et4            513
+Et11           451
+Et13           451
+Et15           451
+Et17           375
+Et19           375
+Et40           451

@@ -1,0 +1,104 @@
+MPLS forwarding table (Label [metric] Vias) - 19 routes 
+MPLS next-hop resolution allow default route: False
+Metric Codes:
+          A - Active metric
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+
+ 20030   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 2
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20053 20030
+ 20031   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20053   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20072   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20084   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20120   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20124   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20128   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20131   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 4
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label 20053
+ 20175   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 10
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label 20214 20175
+ 20179   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20214   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20217   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 21221   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 362146  A[1]
+                via M, 20.30.32.30, pop
+                    EgressACL: apply
+                    directly connected, Ethernet1
+                    c4:ca:2b:45:a2:15, vlan 1006
+ 362147  A[1]
+                via M, fe80::c6ca:2bff:fe45:a215, pop
+                    EgressACL: apply
+                    directly connected, Ethernet1
+                    c4:ca:2b:45:a2:15, vlan 1006
+ 362148  A[1]
+                via M, 20.32.175.175, pop
+                    EgressACL: apply
+                    directly connected, Ethernet5
+                    3c:08:cd:8d:ba:dc, vlan 1010
+ 378528   [0]
+                via I, ipv4, vrf RED
+ 378529   [0]
+                via I, ipv6, vrf RED

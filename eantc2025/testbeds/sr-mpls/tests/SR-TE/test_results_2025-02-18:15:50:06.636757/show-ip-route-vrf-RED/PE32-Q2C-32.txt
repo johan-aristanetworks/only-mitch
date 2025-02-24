@@ -1,0 +1,96 @@
+
+VRF: RED
+Source Codes:
+       C - connected, S - static, K - kernel,
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ C        50.10.32.0/24
+           directly connected, Ethernet40.4
+ B I      50.10.53.0/24 [200/0]
+           via SR-TE Policy 10.0.0.53, color 100, label 970000
+              via SR-TE tunnel index 1, weight 1
+                 via TI-LFA tunnel index 2, label 20053
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.66.0/24 [200/0]
+           via SR-TE Policy 10.0.0.66, color 100, label 62000
+              via SR-TE tunnel index 3, weight 1
+                 via TI-LFA tunnel index 2, label 20066
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.72.0/24 [200/0]
+           via SR-TE Policy 10.0.0.72, color 100, label 62002
+              via SR-TE tunnel index 5, weight 1
+                 via TI-LFA tunnel index 2, label 20072
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.84.0/24 [200/0]
+           via 10.0.0.84/32, IS-IS SR tunnel index 2, label 720896
+              via TI-LFA tunnel index 1, label 20084
+                 via 20.30.32.30, Ethernet1, label imp-null(3)
+                 backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ B I      50.10.120.0/24 [200/0]
+           via SR-TE Policy 10.0.0.120, color 100, label 1277
+              via SR-TE tunnel index 9, weight 1
+                 via TI-LFA tunnel index 2, label 20120
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.124.0/24 [200/0]
+           via SR-TE Policy 10.0.0.124, color 100, label 332
+              via SR-TE tunnel index 11, weight 1
+                 via TI-LFA tunnel index 2, label 20124
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.128.0/24 [200/0]
+           via SR-TE Policy 10.0.0.128, color 100, label 48060
+              via SR-TE tunnel index 13, weight 1
+                 via TI-LFA tunnel index 2, label 20128
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.156.0/24 [200/0]
+           via 10.0.0.156/32, IS-IS SR tunnel index 18, label 20
+              via 20.30.32.30, Ethernet1, label 20156
+              via 20.32.175.175, Ethernet5, label 20156
+ B I      50.10.179.0/24 [200/0]
+           via SR-TE Policy 10.0.0.179, color 100, label 16
+              via SR-TE tunnel index 15, weight 1
+                 via TI-LFA tunnel index 2, label 20179
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.214.0/24 [200/0]
+           via SR-TE Policy 10.0.0.214, color 100, label 500000
+              via SR-TE tunnel index 17, weight 1
+                 via TI-LFA tunnel index 2, label 20214
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.217.0/24 [200/0]
+           via SR-TE Policy 10.0.0.217, color 100, label 524287
+              via SR-TE tunnel index 19, weight 1
+                 via TI-LFA tunnel index 2, label 20217
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      50.10.221.0/24 [200/0]
+           via SR-TE Policy 10.0.0.221, color 100, label 524305
+              via SR-TE tunnel index 21, weight 1
+                 via TI-LFA tunnel index 2, label 21221
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ B I      51.10.120.0/24 [200/0]
+           via SR-TE Policy 10.0.0.120, color 100, label 1277
+              via SR-TE tunnel index 9, weight 1
+                 via TI-LFA tunnel index 2, label 20120
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+

@@ -1,0 +1,268 @@
+MPLS forwarding table (Label [metric] Vias) - 41 routes 
+MPLS next-hop resolution allow default route: False
+Metric Codes:
+          A - Active metric
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+
+ 20030   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 2
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label 20030
+ 20053   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20066   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20072   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20084   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20120   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20124   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20128   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20156   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.32.30 Ethernet1
+                    20.32.175.175 Ethernet5
+ 20175   A[1]
+                via M, ::, pop
+                    EgressACL: apply
+                  via TI-LFA tunnel index 18
+                    via 20.32.175.175, Ethernet5, label imp-null(3)
+                    backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 20179   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20214   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 20217   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 21221   A[1]
+                via M, ::, forward
+                    EgressACL: apply
+                  via TI-LFA tunnel index 1
+                    via 20.30.32.30, Ethernet1, label imp-null(3)
+                    backup via 20.32.175.175, Ethernet5, label imp-null(3)
+ 362156  A[1]
+                via M, 20.30.32.30, pop
+                    EgressACL: apply
+                    directly connected, Ethernet1
+                    c4:ca:2b:45:a2:15, vlan 1006
+ 362157  A[1]
+                via M, fe80::c6ca:2bff:fe45:a215, pop
+                    EgressACL: apply
+                    directly connected, Ethernet1
+                    c4:ca:2b:45:a2:15, vlan 1006
+ 362158  A[1]
+                via M, 20.32.175.175, pop
+                    EgressACL: apply
+                    directly connected, Ethernet5
+                    3c:08:cd:8d:ba:dc, vlan 1010
+ 378528   [0]
+                via I, ipv4, vrf RED
+ 378529   [0]
+                via I, ipv6, vrf RED
+ 1004053 A[1]
+                SR-TE Policy 10.0.0.53, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 1
+                    via TI-LFA tunnel index 2, label 20053
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004066 A[1]
+                SR-TE Policy 10.0.0.66, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 3
+                    via TI-LFA tunnel index 2, label 20066
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004072 A[1]
+                SR-TE Policy 10.0.0.72, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 5
+                    via TI-LFA tunnel index 2, label 20072
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004084 A[1]
+                SR-TE Policy 10.0.0.84, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 7
+                    via TI-LFA tunnel index 2, label 20084
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004120 A[1]
+                SR-TE Policy 10.0.0.120, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 9
+                    via TI-LFA tunnel index 2, label 20120
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004124 A[1]
+                SR-TE Policy 10.0.0.124, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 11
+                    via TI-LFA tunnel index 2, label 20124
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004128 A[1]
+                SR-TE Policy 10.0.0.128, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 13
+                    via TI-LFA tunnel index 2, label 20128
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004179 A[1]
+                SR-TE Policy 10.0.0.179, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 15
+                    via TI-LFA tunnel index 2, label 20179
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004214 A[1]
+                SR-TE Policy 10.0.0.214, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 17
+                    via TI-LFA tunnel index 2, label 20214
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004217 A[1]
+                SR-TE Policy 10.0.0.217, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 19
+                    via TI-LFA tunnel index 2, label 20217
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1004221 A[1]
+                SR-TE Policy 10.0.0.221, color 100, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 21
+                    via TI-LFA tunnel index 2, label 21221
+                       via 20.30.32.30, Ethernet1, label imp-null(3)
+                       backup via 20.32.175.175, Ethernet5, label 20030
+ 1006053 A[1]
+                SR-TE Policy 10.0.0.53, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 2
+                    via TI-LFA tunnel index 18, label 20053
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006066 A[1]
+                SR-TE Policy 10.0.0.66, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 4
+                    via TI-LFA tunnel index 18, label 20066
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006072 A[1]
+                SR-TE Policy 10.0.0.72, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 6
+                    via TI-LFA tunnel index 18, label 20072
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006084 A[1]
+                SR-TE Policy 10.0.0.84, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 8
+                    via TI-LFA tunnel index 18, label 20084
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006120 A[1]
+                SR-TE Policy 10.0.0.120, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 10
+                    via TI-LFA tunnel index 18, label 20120
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006124 A[1]
+                SR-TE Policy 10.0.0.124, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 12
+                    via TI-LFA tunnel index 18, label 20124
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006128 A[1]
+                SR-TE Policy 10.0.0.128, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 14
+                    via TI-LFA tunnel index 18, label 20128
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006179 A[1]
+                SR-TE Policy 10.0.0.179, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 16
+                    via TI-LFA tunnel index 18, label 20179
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006214 A[1]
+                SR-TE Policy 10.0.0.214, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 18
+                    via TI-LFA tunnel index 18, label 20214
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006217 A[1]
+                SR-TE Policy 10.0.0.217, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 20
+                    via TI-LFA tunnel index 18, label 20217
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175
+ 1006221 A[1]
+                SR-TE Policy 10.0.0.221, color 101, pop
+                    EgressACL: apply
+                  via SR-TE tunnel index 22
+                    via TI-LFA tunnel index 18, label 21221
+                       via 20.32.175.175, Ethernet5, label imp-null(3)
+                       backup via 20.30.32.30, Ethernet1, label 20124 2175

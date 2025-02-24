@@ -1,0 +1,43 @@
+Tunnel RIB: system-colored-tunnel-rib
+ Endpoint        Color   Tunnel Type       Index(es)    Tunnel Preference    IGP Preference    IGP Metric   Metric Type
+--------------- ------- ----------------- ------------ -------------------- ----------------- ------------- -----------
+ 10.0.0.30/32    128     IS-IS FlexAlgo    7            65                   115               10000        metric     
+ 10.0.0.30/32    129     IS-IS FlexAlgo    11           65                   115               30           metric     
+ 10.0.0.30/32    130     IS-IS FlexAlgo    2            65                   115               10           metric     
+ 10.0.0.53/32    128     IS-IS FlexAlgo    6            65                   115               20000        metric     
+ 10.0.0.53/32    129     IS-IS FlexAlgo    12           65                   115               20           metric     
+ 10.0.0.53/32    130     IS-IS FlexAlgo    4            65                   115               11           metric     
+ 10.0.0.66/32    129     IS-IS FlexAlgo    34           65                   115               20           metric     
+ 10.0.0.72/32    129     IS-IS FlexAlgo    13           65                   115               20           metric     
+ 10.0.0.124/32   128     IS-IS FlexAlgo    23           65                   115               20000        metric     
+ 10.0.0.128/32   128     IS-IS FlexAlgo    8            65                   115               20000        metric     
+ 10.0.0.156/32   128     IS-IS FlexAlgo    27           65                   115               20000        metric     
+ 10.0.0.156/32   129     IS-IS FlexAlgo    26           65                   115               20           metric     
+ 10.0.0.156/32   130     IS-IS FlexAlgo    28           65                   115               11           metric     
+ 10.0.0.175/32   128     IS-IS FlexAlgo    30           65                   115               20010        metric     
+ 10.0.0.175/32   129     IS-IS FlexAlgo    29           65                   115               10           metric     
+ 10.0.0.175/32   130     IS-IS FlexAlgo    31           65                   115               21           metric     
+ 10.0.0.179/32   128     IS-IS FlexAlgo    40           65                   115               20000        metric     
+ 10.0.0.179/32   129     IS-IS FlexAlgo    38           65                   115               20           metric     
+ 10.0.0.179/32   130     IS-IS FlexAlgo    39           65                   115               11           metric     
+ 10.0.0.217/32   128     IS-IS FlexAlgo    10           65                   115               20000        metric     
+ 10.0.0.217/32   129     IS-IS FlexAlgo    14           65                   115               20           metric     
+ 10.0.0.217/32   130     IS-IS FlexAlgo    3            65                   115               11           metric     
+ 10.0.0.221/32   128     IS-IS FlexAlgo    5            65                   115               20000        metric     
+ 10.0.0.221/32   129     IS-IS FlexAlgo    15           65                   115               20           metric     
+ 2002::30/128    128     IS-IS FlexAlgo    47           65                   115               10000        metric     
+ 2002::30/128    129     IS-IS FlexAlgo    48           65                   115               100          metric     
+ 2002::30/128    130     IS-IS FlexAlgo    64           65                   115               10           metric     
+ 2002::120/128   128     IS-IS FlexAlgo    69           65                   115               20000        metric     
+ 2002::120/128   129     IS-IS FlexAlgo    70           65                   115               200          metric     
+ 2002::120/128   130     IS-IS FlexAlgo    68           65                   115               20           metric     
+ 2002::156/128   128     IS-IS FlexAlgo    61           65                   115               20000        metric     
+ 2002::156/128   129     IS-IS FlexAlgo    62           65                   115               20           metric     
+ 2002::156/128   130     IS-IS FlexAlgo    63           65                   115               20           metric     
+ 2002::53/128    128     IS-IS FlexAlgo    50           65                   115               20000        metric     
+ 2002::53/128    129     IS-IS FlexAlgo    49           65                   115               20           metric     
+ 2002::53/128    130     IS-IS FlexAlgo    52           65                   115               20           metric     
+ 2002::175/128   128     IS-IS FlexAlgo    54           65                   115               20100        metric     
+ 2002::175/128   129     IS-IS FlexAlgo    51           65                   115               10           metric     
+ 2002::175/128   130     IS-IS FlexAlgo    53           65                   115               30           metric     
+

@@ -1,0 +1,669 @@
+Legend:
+H - hostname conflict
+U - node unreachable
+
+IS-IS Instance: IGP VRF: default
+  IS-IS Level 2 Link State Database
+    LSPID                   Seq Num  Cksum  Life Length IS  Received LSPID        Flags
+    Arista-Spine3-Q2A-30.00-00       191  45960  1191   1102 L2  0000.0000.0030.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arista-Spine3-Q2A-30
+      Area addresses: 49.0001
+      Topology: 2 (IPv6)
+      Topology: 0 (IPv4)
+      Interface address: 20.30.179.30
+      Interface address: 20.30.124.30
+      Interface address: 20.30.128.30
+      Interface address: 20.30.184.30
+      Interface address: 20.30.217.30
+      Interface address: 20.30.221.30
+      Interface address: 20.30.72.30
+      Interface address: 20.30.53.30
+      Interface address: 20.30.84.30
+      Interface address: 20.30.214.30
+      Interface address: 20.30.120.30
+      Interface address: 20.30.31.30
+      Interface address: 20.30.32.30
+      Interface address: 10.0.0.30
+      Interface address: 2001:0:30:179::30
+      Interface address: 2001:0:30:124::30
+      Interface address: 2001:0:30:128::30
+      Interface address: 2001:0:30:184::30
+      Interface address: 2001:0:30:217::30
+      Interface address: 2001:0:30:221::30
+      Interface address: 2001:0:30:72::30
+      Interface address: 2001:0:53:120::30
+      Interface address: 2001:0:30:84::30
+      Interface address: 2001:0:30:214::30
+      Interface address: 2001:0:30:120::30
+      Interface address: 2001:0:30:31::30
+      Interface address: 2001:0:30:32::30
+      IS Neighbor          : Juniper-179-ACX7024.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.179.179
+        IPv4 Interface Address: 20.30.179.30
+        Adj-sid: 362168 flags: [L V] weight: 0x0
+      IS Neighbor          : 0000.0000.0124.00   Metric: 10
+        IPv4 Neighbor Address: 20.30.124.124
+        IPv4 Interface Address: 20.30.124.30
+        Adj-sid: 362175 flags: [L V] weight: 0x0
+      IS Neighbor          : 0000.0000.0128.00   Metric: 10
+        IPv4 Neighbor Address: 20.30.128.128
+        IPv4 Interface Address: 20.30.128.30
+        Adj-sid: 362174 flags: [L V] weight: 0x0
+      IS Neighbor          : Nokia-SR1-217.00    Metric: 10
+        IPv4 Neighbor Address: 20.30.217.217
+        IPv4 Interface Address: 20.30.217.30
+        Adj-sid: 362171 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-PE31-Q2C-31.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.31.31
+        IPv4 Interface Address: 20.30.31.30
+        Adj-sid: 362164 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-PE32-Q2C-32.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.32.32
+        IPv4 Interface Address: 20.30.32.30
+        Adj-sid: 362159 flags: [L V] weight: 0x0
+      IS Neighbor          : Ericsson_84_R6678.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.84.84
+        IPv4 Interface Address: 20.30.84.30
+        Adj-sid: 362167 flags: [L V] weight: 0x0
+      IS Neighbor          : Nokia-SXR-214.00    Metric: 10
+        IPv4 Neighbor Address: 20.30.214.214
+        IPv4 Interface Address: 20.30.214.30
+        Adj-sid: 362166 flags: [L V] weight: 0x0
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.30.53.53
+        IPv4 Interface Address: 20.30.53.30
+        Adj-sid: 362165 flags: [L V] weight: 0x0
+      IS Neighbor          : H3C_M1A_120.00      Metric: 10
+        IPv4 Neighbor Address: 20.30.120.120
+        IPv4 Interface Address: 20.30.120.30
+        Adj-sid: 362162 flags: [L V] weight: 0x0
+      IS Neighbor          : Ciena-5134-72.00    Metric: 10
+        IPv4 Neighbor Address: 20.30.72.72
+        IPv4 Interface Address: 20.30.72.30
+        Adj-sid: 362161 flags: [L V] weight: 0x0
+      IS Neighbor          : 221.00              Metric: 10
+        IPv4 Neighbor Address: 20.30.221.221
+        IPv4 Interface Address: 20.30.221.30
+        Adj-sid: 362160 flags: [L V] weight: 0x0
+      IS Neighbor (MT-IPv6): Arista-PE31-Q2C-31.00 Metric: 10
+        Adj-sid: 362170 flags: [L V F] weight: 0x0
+      IS Neighbor (MT-IPv6): Arista-PE32-Q2C-32.00 Metric: 10
+        Adj-sid: 362169 flags: [L V F] weight: 0x0
+      IS Neighbor (MT-IPv6): H3C_M1A_120.00      Metric: 10
+        Adj-sid: 362163 flags: [L V F] weight: 0x0
+      Reachability         : 20.30.179.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.124.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.128.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.184.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.217.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.221.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.72.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.53.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.84.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.120.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.31.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.32.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.30/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 30 Flags: [N] Algorithm: 0
+      Reachability (MT-IPv6): 2001:0:30:179::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:124::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:128::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:184::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:217::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:221::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:72::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:53:120::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:84::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:214::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:120::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:31::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:32::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.30 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+    Arista-PE31-Q2C-31.00-00        41  21888   473    234 L2  0000.0000.0031.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arista-PE31-Q2C-31
+      Area addresses: 49.0001
+      Topology: 2 (IPv6)
+      Topology: 0 (IPv4)
+      Interface address: 20.31.175.31
+      Interface address: 20.30.31.31
+      Interface address: 10.0.0.31
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.31.175.175
+        IPv4 Interface Address: 20.31.175.31
+        Adj-sid: 394915 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.31.30
+        IPv4 Interface Address: 20.30.31.31
+        Adj-sid: 394914 flags: [L V] weight: 0x0
+      IS Neighbor (MT-IPv6): Arista-Spine3-Q2A-30.00 Metric: 10
+        Adj-sid: 394916 flags: [L V F] weight: 0x0
+      Reachability         : 20.31.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.31.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.31/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 31 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.31 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+    Arista-PE32-Q2C-32.00-00        29  36421  1027    270 L2  0000.0000.0032.00-00  <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 727 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arista-PE32-Q2C-32
+      Area addresses: 49.0001
+      Topology: 2 (IPv6)
+      Topology: 0 (IPv4)
+      Interface address: 20.32.175.32
+      Interface address: 20.30.32.32
+      Interface address: 10.0.0.32
+      Interface address: 2001:0:30:32::32
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.32.175.175
+        IPv4 Interface Address: 20.32.175.32
+        Adj-sid: 362148 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.32.30
+        IPv4 Interface Address: 20.30.32.32
+        Adj-sid: 362146 flags: [L V] weight: 0x0
+      IS Neighbor (MT-IPv6): Arista-Spine3-Q2A-30.00 Metric: 10
+        Adj-sid: 362147 flags: [L V F] weight: 0x0
+      Reachability         : 20.32.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.32.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.32/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 32 Flags: [N] Algorithm: 0
+      Reachability (MT-IPv6): 2001:0:30:32::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.32 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+    Arrcus-53.00-00              30  38658  1108    175 L2  0000.0000.0053.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Arrcus-53
+      Area addresses: 49.0001
+      Interface address: 10.0.0.53
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.53.30
+        IPv4 Interface Address: 20.30.53.53
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.53.175.175
+        IPv4 Interface Address: 20.53.175.53
+      Reachability         : 20.30.53.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.53/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 53 Flags: [N P E] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.53 Flags: []
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Ciena-5134-72.00-00          38  34773   513    308 L2  0000.0000.0072.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Ciena-5134-72
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Interface address: 10.0.0.72
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.72.30
+        IPv4 Interface Address: 20.30.72.72
+        Adj-sid: 16000 flags: [L V] weight: 0x0
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.72.175.175
+        IPv4 Interface Address: 20.72.175.72
+        Adj-sid: 16001 flags: [L V] weight: 0x0
+      Reachability         : 20.72.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.72.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.72/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 72 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.72 Flags: []
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Ericsson_84_R6678.00-00        33   8855  1046    204 L2  0000.0000.0084.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Ericsson_84_R6678
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.84
+      Interface address: 2001:0:30:84::175
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Interface Address: 20.30.84.84
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Interface Address: 20.84.175.84
+      Reachability         : 10.0.0.84/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 84 Flags: [N P] Algorithm: 0
+      Reachability (MT-IPv6): 2001:0:84:175::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.84 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  8
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    H3C_M1A_120.00-00            77  42528   815    355 L2  0000.0000.0120.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: H3C_M1A_120
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.120
+      Interface address: 20.30.120.120
+      Interface address: 20.120.175.120
+      Interface address: 20.120.214.120
+      Interface address: 2001:0:30:120::120
+      Interface address: 2001:0:120:175::120
+      Interface address: 2001:0:120:214::120
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.120.30
+        IPv4 Interface Address: 20.30.120.120
+        Adj-sid: 1151 flags: [L V] weight: 0x0
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.120.175.175
+        IPv4 Interface Address: 20.120.175.120
+        Adj-sid: 1150 flags: [L V] weight: 0x0
+      IS Neighbor (MT-IPv6): Arista-Spine3-Q2A-30.00 Metric: 10
+      Reachability         : 10.0.0.120/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 120 Flags: [N] Algorithm: 0
+      Reachability         : 20.30.120.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.120.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.120.214.0/24 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:30:120::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:120:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:120:214::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.120 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  13
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+    0000.0000.0124.00-00         52  21964   613    177 L2  0000.0000.0124.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.124
+      Interface address: 20.124.175.124
+      Interface address: 20.30.124.124
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.124.175.175
+        IPv4 Interface Address: 20.124.175.124
+        Adj-sid: 273 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.124.30
+        IPv4 Interface Address: 20.30.124.124
+        Adj-sid: 274 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.124/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 124 Flags: [N P] Algorithm: 0
+      Reachability         : 20.124.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.124.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.124 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  10
+        SR Capability: Flags: [I]
+          SRGB Base: 2000 Range: 200
+    0000.0000.0128.00-00         31   4101   893    177 L2  0000.0000.0128.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.128
+      Interface address: 20.128.175.128
+      Interface address: 20.30.128.128
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.128.175.175
+        IPv4 Interface Address: 20.128.175.128
+        Adj-sid: 48002 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.128.30
+        IPv4 Interface Address: 20.30.128.128
+        Adj-sid: 48003 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.128/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 128 Flags: [N] Algorithm: 0
+      Reachability         : 20.128.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.128.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.128 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  10
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+    Juniper-131-JCNR.00-00        20   1448   580    308 L2  0000.0000.0131.00-00  <>
+      Remaining lifetime received: 1196 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-131-JCNR
+      Area addresses: 49.0001
+      Interface address: 10.0.0.131
+      Interface address: ::af4:0
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.131.175.175
+        IPv4 Interface Address: 20.131.175.131
+        IPv6 Neighbor Address: 2001:0:131:175::175
+        Global IPv6 Interface Address: 2001:0:131:175::131
+        Adj-sid: 17 flags: [L V F] weight: 0x0
+        Adj-sid: 16 flags: [L V] weight: 0x0
+      Reachability         : 20.131.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.131/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 131 Flags: [N] Algorithm: 0
+      Reachability          : 2001:0:131:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : fe80::ec97:fbff:fe06:5964/128 Metric: 0 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.131 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  0
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    Juniper-175-ACX7100-48L.00-00        92  33096  1014   1147 L2  0000.0000.0175.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-175-ACX7100-48L
+      Area addresses: 49.0001
+      Interface address: 10.0.0.175
+      IS Neighbor          : Juniper-131-JCNR.00 Metric: 10
+        IPv4 Neighbor Address: 20.131.175.131
+        IPv4 Interface Address: 20.131.175.175
+        IPv6 Neighbor Address: 2001:0:131:175::131
+        Global IPv6 Interface Address: 2001:0:131:175::175
+        Adj-sid: 30 flags: [L V F] weight: 0x0
+        Adj-sid: 31 flags: [L V] weight: 0x0
+      IS Neighbor          : 221.00              Metric: 10
+        IPv4 Neighbor Address: 20.175.221.221
+        IPv4 Interface Address: 20.175.221.175
+        Global IPv6 Interface Address: 2001:0:175:221::175
+        Adj-sid: 36 flags: [L V F] weight: 0x0
+        Adj-sid: 35 flags: [L V] weight: 0x0
+      IS Neighbor          : 0000.0000.0128.00   Metric: 10
+        IPv4 Neighbor Address: 20.128.175.128
+        IPv4 Interface Address: 20.128.175.175
+        Global IPv6 Interface Address: 2001:0:128:175::175
+        Adj-sid: 29 flags: [L V] weight: 0x0
+      IS Neighbor          : 0000.0000.0124.00   Metric: 10
+        IPv4 Neighbor Address: 20.124.175.124
+        IPv4 Interface Address: 20.124.175.175
+        Adj-sid: 28 flags: [L V] weight: 0x0
+      IS Neighbor          : Nokia-SXR-214.00    Metric: 10
+        IPv4 Neighbor Address: 20.175.214.214
+        IPv4 Interface Address: 20.175.214.175
+        Global IPv6 Interface Address: 2001:0:175:214::175
+        Adj-sid: 19 flags: [L V F] weight: 0x0
+        Adj-sid: 18 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-PE32-Q2C-32.00 Metric: 10
+        IPv4 Neighbor Address: 20.32.175.32
+        IPv4 Interface Address: 20.32.175.175
+        Global IPv6 Interface Address: 2001:0:32:175::175
+        Adj-sid: 34 flags: [L V] weight: 0x0
+      IS Neighbor          : Ciena-5134-72.00    Metric: 10
+        IPv4 Neighbor Address: 20.72.175.72
+        IPv4 Interface Address: 20.72.175.175
+        Global IPv6 Interface Address: 2001:0:72:175::175
+        Adj-sid: 21 flags: [L V] weight: 0x0
+      IS Neighbor          : Juniper-179-ACX7024.00 Metric: 10
+        IPv4 Neighbor Address: 20.175.179.179
+        IPv4 Interface Address: 20.175.179.175
+        IPv6 Neighbor Address: 2001:0:175::179:179
+        Global IPv6 Interface Address: 2001:0:175::179:175
+        Adj-sid: 23 flags: [L V F] weight: 0x0
+        Adj-sid: 22 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-PE31-Q2C-31.00 Metric: 10
+        IPv4 Neighbor Address: 20.31.175.31
+        IPv4 Interface Address: 20.31.175.175
+        Global IPv6 Interface Address: 2001:0:31:175::175
+        Adj-sid: 32 flags: [L V] weight: 0x0
+      IS Neighbor          : H3C_M1A_120.00      Metric: 10
+        IPv4 Neighbor Address: 20.120.175.120
+        IPv4 Interface Address: 20.120.175.175
+        IPv6 Neighbor Address: 2001:0:120:175::120
+        Global IPv6 Interface Address: 2001:0:120:175::175
+        Adj-sid: 27 flags: [L V F] weight: 0x0
+        Adj-sid: 26 flags: [L V] weight: 0x0
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.175.53
+        IPv4 Interface Address: 20.53.175.175
+        Global IPv6 Interface Address: 2001:0:53:175::175
+        Adj-sid: 20 flags: [L V] weight: 0x0
+      Reachability         : 20.131.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.221.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.128.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.184.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.124.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.32.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.72.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.179.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.31.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.120.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.175/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 175 Flags: [N] Algorithm: 0
+      Reachability         : 20.175.217.0/24 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:131:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:175:221::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:128:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:175:184::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:175:214::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:32:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:72:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:31:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:120:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:53:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:175:217::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.175 Flags: []
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    Juniper-175-ACX7100-48L.00-01        24  25804  1048    221 L2  0000.0000.0175.00-01  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      IS Neighbor          : Nokia-SR1-217.00    Metric: 10
+        IPv4 Neighbor Address: 20.175.217.217
+        IPv4 Interface Address: 20.175.217.175
+        IPv6 Neighbor Address: 2001:0:175:217::217
+        Global IPv6 Interface Address: 2001:0:175:217::175
+        Adj-sid: 39 flags: [L V F] weight: 0x0
+        Adj-sid: 38 flags: [L V] weight: 0x0
+      IS Neighbor          : Ericsson_84_R6678.00 Metric: 10
+        IPv4 Neighbor Address: 20.84.175.84
+        IPv4 Interface Address: 20.84.175.175
+        IPv6 Neighbor Address: 2001:0:84:175::175
+        Global IPv6 Interface Address: 2001:0:84:175::175
+        Adj-sid: 25 flags: [L V F] weight: 0x0
+        Adj-sid: 24 flags: [L V] weight: 0x0
+      Reachability         : 20.84.175.0/24 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:84:175::/64 Metric: 10 Type: 1 Up
+    Juniper-179-ACX7024.00-00        29  64879  1193    362 L2  0000.0000.0179.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-179-ACX7024
+      Area addresses: 49.0001
+      Interface address: 10.0.0.179
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.175.179.175
+        IPv4 Interface Address: 20.175.179.179
+        IPv6 Neighbor Address: 2001:0:175::179:175
+        Global IPv6 Interface Address: 2001:0:175::179:179
+        Adj-sid: 17 flags: [L V F] weight: 0x0
+        Adj-sid: 16 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.179.30
+        IPv4 Interface Address: 20.30.179.179
+        Global IPv6 Interface Address: 2001:0:30:179::179
+        Adj-sid: 22 flags: [L V F] weight: 0x0
+        Adj-sid: 21 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.179/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 179 Flags: [N] Algorithm: 0
+      Reachability         : 20.175.179.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.179.0/24 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:30:179::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.179 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  4
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+ U  Keysight-184.00-00            3  39195   300    132 L2  0000.0000.0184.00-00  <DefaultAtt>
+      Remaining lifetime received: 1193 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6) 0x81(CLNP)
+      Hostname: Keysight-184
+      Area addresses: 49.0001
+      Interface address: 20.175.184.184
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        Adj-sid: 9001 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.184/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 484 Flags: [N] Algorithm: 0
+      Reachability         : 20.175.184.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.184 Flags: []
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Nokia-SXR-214.00-00        1576  14803  1183    357 L2  0000.0000.0214.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Nokia-SXR-214
+      Area addresses: 49.0001
+      Interface address: 10.0.0.214
+      Interface address: 20.30.214.214
+      Interface address: 20.175.214.214
+      Interface address: 20.214.216.214
+      Interface address: 2000::214
+      Interface address: 2001:0:175:214::214
+      Interface address: 2001:0:214:216::214
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.175.214.175
+        IPv4 Interface Address: 20.175.214.214
+        Adj-sid: 30001 flags: [L V B] weight: 0x0
+        Adj-sid: 30002 flags: [L V B F] weight: 0x0
+      IS Neighbor          : Nokia-IXRe2-216.00  Metric: 10
+        IPv4 Neighbor Address: 20.214.216.216
+        IPv4 Interface Address: 20.214.216.214
+        Adj-sid: 30003 flags: [L V B] weight: 0x0
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.214.30
+        IPv4 Interface Address: 20.30.214.214
+        Adj-sid: 30004 flags: [L V B] weight: 0x0
+        Adj-sid: 30005 flags: [L V B F] weight: 0x0
+      Reachability         : 20.30.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.214.216.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.214/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 214 Flags: [N P] Algorithm: 0
+      Reachability          : 2000::214/128 Metric: 0 Type: 1 Up
+      Reachability          : 2001:0:175:214::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:214:216::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 0.0.0.0 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  15
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Nokia-IXRe2-216.00-00        23  20487   677    120 L2  0100.0000.0216.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Nokia-IXRe2-216
+      Area addresses: 49.0001.0000.0000.0216.00
+      Interface address: 10.0.0.216
+      Interface address: 20.214.216.216
+      IS Neighbor          : Nokia-SXR-214.00    Metric: 10
+        IPv4 Neighbor Address: 20.214.216.214
+        IPv4 Interface Address: 20.214.216.216
+      Reachability         : 20.214.216.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.216/32 Metric: 0 Type: 1 Up
+    Nokia-SR1-217.00-00          14  55227   824    349 L2  0100.0000.0217.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Nokia-SR1-217
+      Area addresses: 49.0001.0000.0000.0216.00
+      Interface address: 10.0.0.217
+      Interface address: 20.30.217.217
+      Interface address: 20.175.217.217
+      Interface address: 2001:0:175:217::217
+      Interface address: 2002::217
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.217.30
+        IPv4 Interface Address: 20.30.217.217
+        Adj-sid: 524285 flags: [L V] weight: 0x0
+        Adj-sid: 524284 flags: [L V F] weight: 0x0
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.175.217.175
+        IPv4 Interface Address: 20.175.217.217
+        IPv6 Neighbor Address: 2001:0:175:217::175
+        Global IPv6 Interface Address: 2001:0:175:217::217
+        Adj-sid: 524286 flags: [L V] weight: 0x0
+        Adj-sid: 524283 flags: [L V F] weight: 0x0
+      Reachability         : 10.0.0.217/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 217 Flags: [N P] Algorithm: 0
+      Reachability         : 20.30.217.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.217.0/24 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:175:217::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2002::217/128 Metric: 0 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.217 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    221.00-00                    16  55450   596     80 L2  0221.0221.0221.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Area addresses: 49.0001
+      Router Capabilities: Router Id: 10.0.0.221 Flags: []
+        SR Local Block:
+          SRLB Base: 626688 Range: 14336
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  10
+        SR Capability: Flags: [I]
+          SRGB Base: 720000 Range: 2000
+      Unsupported TLV: Type: 14 Length: 2
+    221.00-01                    16  49056   606     32 L2  0221.0221.0221.00-01  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      Hostname: 221
+    221.00-02                    31  36956   503    273 L2  0221.0221.0221.00-02  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      Interface address: 10.0.0.221
+      Interface address: 20.175.221.221
+      Interface address: 20.30.221.221
+      Interface address: 1221::1
+      Interface address: 2001:0:175:221::221
+      Interface address: 2001:0:30:221::221
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.175.221.175
+        IPv4 Interface Address: 20.175.221.221
+        Adj-sid: 524291 flags: [L V B] weight: 0x0
+        Adj-sid: 524290 flags: [L V] weight: 0x0
+      IS Neighbor          : Arista-Spine3-Q2A-30.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.221.30
+        IPv4 Interface Address: 20.30.221.221
+        Adj-sid: 524293 flags: [L V B] weight: 0x0
+        Adj-sid: 524292 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.221/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 1221 Flags: [N] Algorithm: 0
+      Reachability         : 20.175.221.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.30.221.0/24 Metric: 10 Type: 1 Up
+      Reachability          : 1221::1/128 Metric: 0 Type: 1 Up
+      Reachability          : 2001:0:175:221::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:30:221::/64 Metric: 10 Type: 1 Up
+

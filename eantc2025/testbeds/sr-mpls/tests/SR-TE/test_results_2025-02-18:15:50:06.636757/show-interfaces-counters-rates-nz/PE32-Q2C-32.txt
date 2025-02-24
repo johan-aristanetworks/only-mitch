@@ -1,0 +1,7 @@
+Port      Name                Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et5       Juniper-175_509      0:01    392.0   4.7%      510    399.4   4.8%
+Et40                           0:01    383.4   4.6%      499    392.0   4.7%
+
+Port      Out Kpps
+Et5            499
+Et40           510

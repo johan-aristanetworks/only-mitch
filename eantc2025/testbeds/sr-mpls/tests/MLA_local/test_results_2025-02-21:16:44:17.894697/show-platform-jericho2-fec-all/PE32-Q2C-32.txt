@@ -1,0 +1,161 @@
+Tunnel Type: Mpop(mpls pop), Mpush(mpls push), Mswap(mpls swap),
+             MoG(mpls-over-gre), T(IPv4 tunnels GRE/GUE/VXLAN),
+             N(Ipsec tunnel NAT-T [IP,SPORT,DPORT])
+CW  - Control word
+FL  - Flow label
+EL  - Entropy label
+ELI - Entropy label indicator
+D   - ECMP is divergent across switching chips
+ -----------------------------------------------------------------------------------------------
+|                                              FEC Entry                                        |
+ -----------------------------------------------------------------------------------------------
+|     |      |     |                    |     |        |                   |
+| ECMP|  FEC |     |                    |     |        |                   |
+|Index| Index| Cmd |     Destination    | VID | Outlif |   MAC / CPU Code  |    Tunnel Value
+ -----------------------------------------------------------------------------------------------
+|24576|528604|ROUTE| Et5                |1010 |107519  | 3c:08:cd:8d:ba:dc |   -   
+|24576|528605|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|24576|528606|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|24576|528607|ROUTE| Et5                |1010 |107519  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |288360|ROUTE| FEC 528552         |   - |2097084 |                 - |Mpush 970002
+|  -  |288362|ROUTE| FEC 528548         |   - |2097086 |                 - |Mpush 21
+|  -  |288364|ROUTE| FEC 528560         |   - |2097078 |                 - |Mpush 970002
+|  -  |288366|ROUTE| FEC 528558         |   - |2097079 |                 - |Mpush 524284
+|  -  |288368|ROUTE| FEC 528564         |   - |2097080 |                 - |Mpush 17
+|  -  |288370|ROUTE| FEC 528566         |   - |2097077 |                 - |Mpush 21
+|  -  |288372|ROUTE| FEC 528520         |   - |2097093 |                 - |Mpush 62000
+|  -  |288374|ROUTE| FEC 528556         |   - |2097082 |                 - |Mpush 524284
+|  -  |288376|ROUTE| FEC 528554         |   - |2097083 |                 - |Mpush 524293
+|  -  |288380|ROUTE| FEC 528514         |   - |2097101 |                 - |Mpush 62000
+|  -  |288382|ROUTE| FEC 528550         |   - |2097085 |                 - |Mpush 17
+|  -  |288384|ROUTE| FEC 528516         |   - |2097088 |                 - |Mpush 524292
+|  -  |288386|ROUTE| FEC 528508         |   - |2097092 |                 - |Mpush 970000
+|  -  |288388|ROUTE| FEC 528510         |   - |2097091 |                 - |Mpush 720899
+|  -  |288390|ROUTE| FEC 528498         |   - |2097103 |                 - |Mpush 16
+|  -  |288392|ROUTE| FEC 528614         |   - |2097073 |                 - |Mpush 21309 21
+|  -  |288394|ROUTE| FEC 528562         |   - |2097081 |                 - |Mpush 1660
+|  -  |288396|ROUTE| FEC 528504         |   - |2097095 |                 - |Mpush 1657
+|  -  |288398|ROUTE| FEC 528546         |   - |2097087 |                 - |Mpush 1659
+|  -  |288400|ROUTE| FEC 528512         |   - |2097089 |                 - |Mpush 500000
+|  -  |288402|ROUTE| FEC 528506         |   - |2097094 |                 - |Mpush 18
+|  -  |288404|ROUTE| FEC 528502         |   - |2097098 |                 - |Mpush 524287
+|  -  |288406|ROUTE| FEC 528614         |   - |2097076 |                 - |Mpush 21347 524284
+|  -  |288408|ROUTE| FEC 528614         |   - |2097074 |                 - |Mpush 21286 17
+|  -  |288410|ROUTE| FEC 528500         |   - |2097099 |                 - |Mpush 16
+|  -  |288412|ROUTE| FEC 528504         |   - |2097096 |                 - |Mpush 1658
+|  -  |288420|ROUTE| FEC 528512         |   - |2097089 |                 - |Mpush 500000
+|  -  |288422|ROUTE| FEC 528510         |   - |2097090 |                 - |Mpush 720898
+|  -  |288424|ROUTE| FEC 528498         |   - |2097103 |                 - |Mpush 16
+|  -  |288426|ROUTE| FEC 528500         |   - |2097099 |                 - |Mpush 16
+|  -  |288428|ROUTE| FEC 528506         |   - |2097094 |                 - |Mpush 18
+|  -  |288430|ROUTE| FEC 528502         |   - |2097098 |                 - |Mpush 524287
+|  -  |288432|ROUTE| FEC 528614         |   - |2097075 |                 - |Mpush 21183 970002
+|  -  |524290|TRAP | CoppSystemIpBcast  |0    |  -     | BcastReceive      |   -   
+|  -  |524291|TRAP | CoppSystemIpUcast  |0    |  -     | Receive           |   -   
+|  -  |524293|TRAP | CoppSystemL3LpmOver|0    |  -     | SlowReceive       |   -   
+|  -  |524295|TRAP | CoppSystemL3DstMiss|0    |  -     | ArpTrap           |   -   
+|  -  |525301|TRAP | CoppSystemL3DstMiss|1006 |1006    | ArpTrap           |   -   
+|  -  |525303|TRAP | CoppSystemL3DstMiss|1008 |1008    | ArpTrap           |   -   
+|  -  |525304|TRAP | CoppSystemL3DstMiss|1009 |1009    | ArpTrap           |   -   
+|  -  |525305|TRAP | CoppSystemL3DstMiss|1010 |1010    | ArpTrap           |   -   
+|  -  |525307|TRAP | CoppSystemL3DstMiss|1012 |1012    | ArpTrap           |   -   
+|  -  |525308|TRAP | CoppSystemL3DstMiss|1013 |1013    | ArpTrap           |   -   
+|  -  |525309|TRAP | CoppSystemL3DstMiss|1014 |1014    | ArpTrap           |   -   
+|  -  |528482|ROUTE| Et1                |1006 |107522  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528483|ROUTE| Et5                |1010 |107523  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528484|ROUTE| Et1                |1006 |107524  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528485|ROUTE| Et5                |1010 |107525  | 3c:08:cd:8d:ba:dc |Mpush 20030
+|  -  |528486|ROUTE| Et5                |1010 |107526  | 3c:08:cd:8d:ba:dc |Mpush 20159
+|  -  |528487|ROUTE| Et1                |1006 |107527  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528488|ROUTE| Et5                |1010 |107528  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528489|ROUTE| Et1                |1006 |107529  | c4:ca:2b:45:a2:15 |Mpush 20072 20175
+|  -  |528490|ROUTE| Et5                |1010 |107530  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528491|ROUTE| Et1                |1006 |107531  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528492|ROUTE| Et5                |1010 |107532  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528493|ROUTE| Et1                |1006 |107533  | c4:ca:2b:45:a2:15 |Mpush 21308 21304
+|  -  |528494|ROUTE| Et5                |1010 |107534  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528495|ROUTE| Et1                |1006 |107535  | c4:ca:2b:45:a2:15 |Mpush 21285
+|  -  |528496|ROUTE| Et5                |1010 |107536  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528497|ROUTE| Et1                |1006 |107537  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528498|ROUTE| Et1                |1006 |107540  | c4:ca:2b:45:a2:15 |Mpush 20179
+|  -  |528499|ROUTE| Et5                |1010 |107541  | 3c:08:cd:8d:ba:dc |Mpush 20179
+|  -  |528500|ROUTE| Et1                |1006 |107562  | c4:ca:2b:45:a2:15 |Mpush 20156
+|  -  |528501|ROUTE| Et5                |1010 |107563  | 3c:08:cd:8d:ba:dc |Mpush 20156
+|  -  |528502|ROUTE| Et1                |1006 |107564  | c4:ca:2b:45:a2:15 |Mpush 20217
+|  -  |528503|ROUTE| Et5                |1010 |107565  | 3c:08:cd:8d:ba:dc |Mpush 20217
+|  -  |528504|ROUTE| Et1                |1006 |107566  | c4:ca:2b:45:a2:15 |Mpush 20120
+|  -  |528505|ROUTE| Et5                |1010 |107567  | 3c:08:cd:8d:ba:dc |Mpush 20120
+|  -  |528506|ROUTE| Et1                |1006 |107568  | c4:ca:2b:45:a2:15 |Mpush 20131
+|  -  |528507|ROUTE| Et5                |1010 |107569  | 3c:08:cd:8d:ba:dc |Mpush 20131
+|  -  |528508|ROUTE| Et1                |1006 |107588  | c4:ca:2b:45:a2:15 |Mpush 20053
+|  -  |528509|ROUTE| Et5                |1010 |107589  | 3c:08:cd:8d:ba:dc |Mpush 20053
+|  -  |528510|ROUTE| Et1                |1006 |107590  | c4:ca:2b:45:a2:15 |Mpush 20084
+|  -  |528511|ROUTE| Et5                |1010 |107591  | 3c:08:cd:8d:ba:dc |Mpush 20084
+|  -  |528512|ROUTE| Et1                |1006 |107592  | c4:ca:2b:45:a2:15 |Mpush 20214
+|  -  |528513|ROUTE| Et5                |1010 |107593  | 3c:08:cd:8d:ba:dc |Mpush 20214
+|  -  |528514|ROUTE| Et1                |1006 |107560  | c4:ca:2b:45:a2:15 |Mpush 20072
+|  -  |528515|ROUTE| Et5                |1010 |107561  | 3c:08:cd:8d:ba:dc |Mpush 20072
+|  -  |528516|ROUTE| Et1                |1006 |107594  | c4:ca:2b:45:a2:15 |Mpush 20221
+|  -  |528517|ROUTE| Et5                |1010 |107595  | 3c:08:cd:8d:ba:dc |Mpush 20221
+|  -  |528518|ROUTE| Et5                |1010 |107570  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528519|ROUTE| Et1                |1006 |107571  | c4:ca:2b:45:a2:15 |Mpush 21582 21704
+|  -  |528520|ROUTE| Et1                |1006 |107586  | c4:ca:2b:45:a2:15 |Mpush 20066
+|  -  |528521|ROUTE| Et5                |1010 |107587  | 3c:08:cd:8d:ba:dc |Mpush 20066
+|  -  |528522|ROUTE| Et1                |1006 |107628  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528523|ROUTE| Et5                |1010 |107629  | 3c:08:cd:8d:ba:dc |Mpush 20158
+|  -  |528526|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528528|ROUTE| Et5                |1010 |107519  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528530|ROUTE| Et5                |1010 |107519  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528532|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528534|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528536|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528538|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528540|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528542|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528544|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528546|ROUTE| Et5                |1010 |107596  | 3c:08:cd:8d:ba:dc |Mpush 21249
+|  -  |528547|ROUTE| Et1                |1006 |107597  | c4:ca:2b:45:a2:15 |Mpush 21285 21249
+|  -  |528548|ROUTE| Et5                |1010 |107598  | 3c:08:cd:8d:ba:dc |Mpush 21308
+|  -  |528549|ROUTE| Et1                |1006 |107599  | c4:ca:2b:45:a2:15 |Mpush 21308
+|  -  |528550|ROUTE| Et5                |1010 |107610  | 3c:08:cd:8d:ba:dc |Mpush 21285
+|  -  |528551|ROUTE| Et1                |1006 |107611  | c4:ca:2b:45:a2:15 |Mpush 21285
+|  -  |528552|ROUTE| Et5                |1010 |107612  | 3c:08:cd:8d:ba:dc |Mpush 21182
+|  -  |528553|ROUTE| Et1                |1006 |107613  | c4:ca:2b:45:a2:15 |Mpush 21182
+|  -  |528554|ROUTE| Et5                |1010 |107614  | 3c:08:cd:8d:ba:dc |Mpush 21350
+|  -  |528555|ROUTE| Et1                |1006 |107615  | c4:ca:2b:45:a2:15 |Mpush 21350
+|  -  |528556|ROUTE| Et5                |1010 |107616  | 3c:08:cd:8d:ba:dc |Mpush 21346
+|  -  |528557|ROUTE| Et1                |1006 |107617  | c4:ca:2b:45:a2:15 |Mpush 21346
+|  -  |528558|ROUTE| Et1                |1006 |107622  | c4:ca:2b:45:a2:15 |Mpush 21345
+|  -  |528559|ROUTE| Et5                |1010 |107623  | 3c:08:cd:8d:ba:dc |Mpush 21345
+|  -  |528560|ROUTE| Et1                |1006 |107624  | c4:ca:2b:45:a2:15 |Mpush 21181
+|  -  |528561|ROUTE| Et5                |1010 |107625  | 3c:08:cd:8d:ba:dc |Mpush 21181
+|  -  |528562|ROUTE| Et1                |1006 |107618  | c4:ca:2b:45:a2:15 |Mpush 21248
+|  -  |528563|ROUTE| Et5                |1010 |107619  | 3c:08:cd:8d:ba:dc |Mpush 21248
+|  -  |528564|ROUTE| Et1                |1006 |107620  | c4:ca:2b:45:a2:15 |Mpush 21284
+|  -  |528565|ROUTE| Et5                |1010 |107621  | 3c:08:cd:8d:ba:dc |Mpush 21284
+|  -  |528566|ROUTE| Et1                |1006 |107626  | c4:ca:2b:45:a2:15 |Mpush 21307
+|  -  |528567|ROUTE| Et5                |1010 |107627  | 3c:08:cd:8d:ba:dc |Mpush 21307
+|  -  |528568|ROUTE| Et1                |1006 |107630  | c4:ca:2b:45:a2:15 |Mpush 21303
+|  -  |528569|ROUTE| Et5                |1010 |107631  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528570|ROUTE| Et1                |1006 |107632  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528571|ROUTE| Et5                |1010 |107633  | 3c:08:cd:8d:ba:dc |Mpush 21685
+|  -  |528572|ROUTE| Et1                |1006 |107634  | c4:ca:2b:45:a2:15 |Mpush 21703
+|  -  |528573|ROUTE| Et5                |1010 |107635  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528574|ROUTE| Et1                |1006 |107636  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528575|ROUTE| Et5                |1010 |107637  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528576|ROUTE| Et1                |1006 |107638  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528577|ROUTE| Et5                |1010 |107639  | 3c:08:cd:8d:ba:dc |Mpush 21685 20559
+|  -  |528578|ROUTE| Et1                |1006 |107640  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528579|ROUTE| Et5                |1010 |107641  | 3c:08:cd:8d:ba:dc |Mpush 20558
+|  -  |528594|ROUTE| Et40               |1012 |107517  | 00:28:01:00:00:02 |   -   
+|  -  |528596|ROUTE| Et5                |1010 |107519  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528598|ROUTE| Et5                |1010 |107519  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528600|ROUTE| Et5                |1010 |107519  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528602|ROUTE| Et40               |1008 |107518  | 00:28:01:00:00:01 |   -   
+|  -  |528608|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528610|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528612|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528614|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528616|ROUTE| Et1                |1006 |107520  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528618|ROUTE| Et40               |1013 |107521  | 00:28:01:00:00:03 |   -   
+

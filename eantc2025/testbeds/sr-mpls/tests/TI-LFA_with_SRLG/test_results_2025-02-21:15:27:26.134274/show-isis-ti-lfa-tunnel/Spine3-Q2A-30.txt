@@ -1,0 +1,125 @@
+Tunnel Index 0
+   via 21.30.128.128, 'Ethernet20'
+      label stack 3
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 20128
+Tunnel Index 1
+   via fe80::d248:a1ff:feba:3c61, 'Ethernet11'
+      label stack 3
+   backup via fe80::d6af:f7ff:fe2f:1396, 'Ethernet29'
+      label stack 20575 20556
+Tunnel Index 2
+   via 20.30.84.84, 'Ethernet12'
+      label stack 3
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 3
+Tunnel Index 3
+   via 20.30.131.131, 'Ethernet35'
+      label stack 3
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 20131
+Tunnel Index 4
+   via 20.30.72.72, 'Ethernet9'
+      label stack 3
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 20072
+Tunnel Index 5
+   via fe80::5e07:58ff:fea3:aaa, 'Ethernet13'
+      label stack 2
+   backup via fe80::c214:b8ff:fe21:9790, 'Ethernet4'
+      label stack 20575 20453
+Tunnel Index 6
+   via 20.30.221.221, 'Ethernet15'
+      label stack 3
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 20221
+Tunnel Index 8
+   via fe80::5e07:58ff:fea3:aaa, 'Ethernet13'
+      label stack 3
+   backup via fe80::d248:a1ff:feba:3c61, 'Ethernet11'
+      label stack 19 21581
+Tunnel Index 9
+   via 20.30.72.72, 'Ethernet9'
+      label stack 3
+   backup via 20.30.221.221, 'Ethernet15'
+      label stack 721201
+Tunnel Index 10
+   via 20.30.53.53, 'Ethernet13'
+      label stack 3
+   backup via 21.30.32.32, 'Ethernet29'
+      label stack 21182
+Tunnel Index 11
+   via 20.30.221.221, 'Ethernet15'
+      label stack 3
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 21350
+Tunnel Index 12
+   via 20.30.221.221, 'Ethernet15'
+      label stack 3
+   backup via 20.30.53.53, 'Ethernet13'
+      label stack 21303 21349
+Tunnel Index 13
+   via 20.30.53.53, 'Ethernet13'
+      label stack 0
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 20053
+Tunnel Index 14
+   via 20.30.221.221, 'Ethernet15'
+      label stack 721303
+   backup via 20.30.53.53, 'Ethernet13'
+      label stack 21303
+Tunnel Index 15
+   via fe80::d248:a1ff:feba:3c61, 'Ethernet11'
+      label stack 3
+   backup via fe80::5e07:58ff:fea3:aaa, 'Ethernet13'
+      label stack 21703 21684
+Tunnel Index 16
+   via 20.30.179.179, 'Ethernet40'
+      label stack 3
+   backup via 20.30.221.221, 'Ethernet15'
+      label stack 721303 21307
+Tunnel Index 17
+   via 20.30.179.179, 'Ethernet40'
+      label stack 3
+   backup via 20.30.221.221, 'Ethernet15'
+      label stack 720175 20179
+Tunnel Index 18
+   via 20.30.66.66, 'Ethernet31'
+      label stack 3
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 20066
+Tunnel Index 19
+   via 21.30.128.128, 'Ethernet20'
+      label stack 3
+   backup via 20.30.221.221, 'Ethernet15'
+      label stack 721303 21256
+Tunnel Index 20
+   via 20.30.66.66, 'Ethernet31'
+      label stack 3
+   backup via 20.30.179.179, 'Ethernet40'
+      label stack 21195
+Tunnel Index 21
+   via 20.30.53.53, 'Ethernet13'
+      label stack 3
+   backup via 20.30.221.221, 'Ethernet15'
+      label stack 721303 21181
+Tunnel Index 22
+   via 20.30.179.179, 'Ethernet40'
+      label stack 3
+   backup via 20.30.221.221, 'Ethernet15'
+      label stack 721308
+Tunnel Index 24
+   via fe80::5e07:58ff:fea3:aaa, 'Ethernet13'
+      label stack 21703
+   backup via fe80::d248:a1ff:feba:3c61, 'Ethernet11'
+      label stack 19
+Tunnel Index 30
+   via fe80::5e07:58ff:fea3:aaa, 'Ethernet13'
+      label stack 3
+   backup via fe80::d248:a1ff:feba:3c61, 'Ethernet11'
+      label stack 21582
+Tunnel Index 31
+   via fe80::d248:a1ff:feba:3c61, 'Ethernet11'
+      label stack 3
+   backup via fe80::5e07:58ff:fea3:aaa, 'Ethernet13'
+      label stack 21685

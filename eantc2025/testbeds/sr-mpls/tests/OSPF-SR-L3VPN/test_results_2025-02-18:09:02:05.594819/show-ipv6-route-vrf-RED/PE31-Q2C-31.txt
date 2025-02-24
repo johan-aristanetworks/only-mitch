@@ -1,0 +1,51 @@
+
+VRF: RED
+Displaying 13 of 17 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ C        2600:50:10:31::/64 [0/0]
+           via Ethernet40.6, directly connected
+ B I      2600:50:10:32::/64 [200/0]
+           via 10.0.0.32/32, OSPF SR tunnel index 4, label 378529
+              via 20.31.175.175, Ethernet5, label 20032
+ B I      2600:50:10:66::/64 [200/0]
+           via 10.0.0.66/32, OSPF SR tunnel index 6, label 62001
+              via 20.31.175.175, Ethernet5, label 20066
+ B I      2600:50:10:72::/64 [200/0]
+           via 10.0.0.72/32, OSPF SR tunnel index 5, label 62003
+              via 20.31.175.175, Ethernet5, label 20072
+ B I      2600:50:10:84::/64 [200/0]
+           via 10.0.0.84/32, OSPF SR tunnel index 7, label 720897
+              via 20.31.175.175, Ethernet5, label 20084
+ B I      2600:50:10:120::/64 [200/0]
+           via 10.0.0.120/32, OSPF SR tunnel index 8, label 1276
+              via 20.31.175.175, Ethernet5, label 20120
+ B I      2600:50:10:124::/64 [200/0]
+           via 10.0.0.124/32, OSPF SR tunnel index 11, label 333
+              via 20.31.175.175, Ethernet5, label 20124
+ B I      2600:50:10:128::/64 [200/0]
+           via 10.0.0.128/32, OSPF SR tunnel index 10, label 48061
+              via 20.31.175.175, Ethernet5, label 20128
+ B I      2600:50:10:131::/64 [200/0]
+           via 10.0.0.131/32, OSPF SR tunnel index 9, label 18
+              via 20.31.175.175, Ethernet5, label 20131
+ B I      2600:50:10:179::/64 [200/0]
+           via 10.0.0.179/32, OSPF SR tunnel index 12, label 16
+              via 20.31.175.175, Ethernet5, label 20179
+ B I      2600:50:10:217::/64 [200/0]
+           via 10.0.0.217/32, OSPF SR tunnel index 3, label 524287
+              via 20.31.175.175, Ethernet5, label 20217
+ B I      2600:50:10:221::/64 [200/0]
+           via 10.0.0.221/32, OSPF SR tunnel index 2, label 524289
+              via 20.31.175.175, Ethernet5, label 21221
+ B I      2600:51:10:120::/64 [200/0]
+           via 10.0.0.120/32, OSPF SR tunnel index 8, label 1276
+              via 20.31.175.175, Ethernet5, label 20120
+

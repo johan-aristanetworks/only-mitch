@@ -1,0 +1,17 @@
+Arista DCS-7280SR3-48YC8-F
+Hardware version: 12.12
+Serial number: HBG243203DT
+Hardware MAC address: 68bf.6c35.1e31
+System MAC address: 68bf.6c35.1e31
+
+Software image version: 4.33.1.1F
+Architecture: x86_64
+Internal build version: 4.33.1.1F-40155285.43311F
+Internal build ID: 2170da2c-90c5-421e-adc1-86266708cffc
+Image format version: 3.0
+Image optimization: Default
+
+Uptime: 9 hours and 9 minutes
+Total memory: 8099700 kB
+Free memory: 5052564 kB
+

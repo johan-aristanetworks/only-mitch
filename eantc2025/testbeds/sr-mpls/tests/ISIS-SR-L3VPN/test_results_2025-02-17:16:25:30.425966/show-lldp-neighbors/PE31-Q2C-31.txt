@@ -1,0 +1,13 @@
+Last table change time   : 0:49:38 ago
+Number of table inserts  : 6
+Number of table deletes  : 2
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port          Neighbor Device ID                      Neighbor Port ID    TTL
+---------- --------------------------------------- ---------------------- ---
+Et1           Arista-Spine3-Q2A-30.ns.eantc.de        Ethernet1           120
+Et5           Juniper-175-ACX7100-48L                 515                 120
+Et40          Arista-Harness3-JP-39.ns.eantc.de       Ethernet1           120
+Ma1           extreme-x460-2                          8                   120
+
